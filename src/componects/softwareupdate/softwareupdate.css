@@ -1,0 +1,40 @@
+.software{
+    background-color: rgb(250 250 250);
+}
+.lets{
+    font-size: 30px;
+    color: rgb(33 37 41);
+    padding: 10px 0px 0px 0px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 50px;
+}
+.ipsum{
+    padding: 20px 0px 0px 0px 0px;
+    font-size: 18px;
+    color: rgb(100, 105, 111);
+    font-family: serif;
+}
+.arow{
+    font-size: 4rem;
+    
+}
+.fixed{
+    padding: 12px 12px 12px 12px;
+
+}
+.fixed:hover{
+    border: 4px dashed rgb(6 21 114);
+  
+}
+.bgcolors:hover{
+    background-color: rgb(6 21 114);
+    color: white;
+
+}
+.bluecard{
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+}
+ 
+ 

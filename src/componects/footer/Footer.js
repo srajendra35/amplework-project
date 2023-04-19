@@ -362,21 +362,19 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="col-sm-3">
-                <ul className="d-flex justify-content-between ">
-                  <li>
-                    <FaFacebookF className="icon text-white" />
-                  </li>
-                  <li>
-                    <FaLinkedinIn className="icon text-white" />
-                  </li>
-                  <li>
-                    <CiTwitter className="icon text-white" />
-                  </li>
-                  <li>
-                    <AiOutlineInstagram className="icon text-white" />
-                  </li>
-                </ul>
+              <div className="col d-flex flex-wrap justify-content-between ">
+                <div className="col text-center">
+                  <FaFacebookF className="icon text-white" />
+                </div>
+                <div className="col text-center">
+                  <FaLinkedinIn className="icon text-white" />
+                </div>
+                <div className="col text-center">
+                  <CiTwitter className="icon text-white" />
+                </div>
+                <div className="col text-center">
+                  <AiOutlineInstagram className="icon text-white" />
+                </div>
               </div>
             </div>
           </div>

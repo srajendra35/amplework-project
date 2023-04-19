@@ -1,0 +1,76 @@
+.hexagon1{
+        position: relative;
+        overflow: hidden;
+        margin: 2em auto;
+        width: 10em; height: 10em;
+        transform: rotate(-30deg) skewX(30deg) scaleY(.866);
+        
+      }
+      .hexagon1:before {
+        position: absolute;
+        right: 6.7%; bottom: 0; left: 6.7%; top: 0;
+        transform: scaleY(1.155) skewX(-30deg) rotate(30deg);
+        background: linear-gradient(#8661b0,rgb(180, 124, 206));
+        color: white;
+        font: 1em/10 Verdana, sans-serif;
+        text-align: center;
+        text-shadow: 0 0 .5em black;
+        content: 'Production & user support ';
+    
+}
+.hexagon2{
+    position: relative;
+    overflow: hidden;
+    margin: 2em auto;
+    width: 10em; height: 10em;
+    transform: rotate(-30deg) skewX(30deg) scaleY(.866);
+  }
+  .hexagon2:before {
+    position: absolute;
+    right: 6.7%; bottom: 0; left: 6.7%; top: 0;
+    transform: scaleY(1.155) skewX(-30deg) rotate(30deg);
+    background: linear-gradient(pink, rgb(255, 219, 37));
+    color: white;
+    font: 1em/10 Verdana, sans-serif;
+    text-align: center;
+    text-shadow: 0 0 .5em black;
+    content: 'Application';
+  
+}
+.hexagon3{
+    position: relative;
+    overflow: hidden;
+    margin: 2em auto;
+    width: 10em; height: 10em;
+    transform: rotate(-30deg) skewX(30deg) scaleY(.866);
+  }
+  .hexagon3:before {
+    position: absolute;
+    right: 6.7%; bottom: 0; left: 6.7%; top: 0;
+    transform: scaleY(1.155) skewX(-30deg) rotate(30deg);
+    background: linear-gradient(green, rgb(102, 193, 112));
+    color: white;
+    font: 1em/10 Verdana, sans-serif;
+    text-align: center;
+    text-shadow: 0 0 .5em black;
+    content: 'Performance';
+   
+    
+
+}
+.ample{
+    letter-spacing: 3px;  
+}
+ 
+
+
+ 
+.setting{
+    font-size: 10rem;
+   
+
+}
+ 
+.para{
+    color: rgb(143, 145, 147);
+}

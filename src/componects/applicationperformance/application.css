@@ -1,0 +1,17 @@
+ .text{
+    font-weight: 400rem;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ .freequitebtn{
+    margin-bottom: 6rem;
+    margin-top: 3rem;
+ }
+ .ours{
+  
+   font-size: 30px;
+   color: rgb(33 37 41);
+   padding: 10px 0px 0px 0px;
+   font-weight: 400;
+   letter-spacing: 1px;
+   line-height: 50px;
+ }

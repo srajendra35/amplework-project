@@ -3,6 +3,19 @@ import Navbar from "../navbar/Navbar";
 import "./welcomeBlock.css";
 import Button from "../button/Button";
 import Footer from "../footer/Footer";
+import Application from "../applicationperformance/Application";
+import Activities from "../activites/Activites";
+import ToolTechnology from "../tooltechnology/ToolTechnology";
+import TypeOfApps from "../typeOfApps/TypeofApps";
+import SoftwareUpdate from "../softwareupdate/SoftwareUpdate";
+import Fascinat from "../fascinat/Fascinat";
+import Diverse from "../diverse/Diverse";
+import Business from "../business/Business";
+import Technology from "../technology/Technology";
+import Frequently from "../frequently/Frequently";
+import FullStackDeveloper from "../fullstackdeveloper/Developer";
+import Appreciation from "../appreciation/Appreciation";
+import SweatCoin from "../sweatcoin/SweatCoin";
 
 const WelcomeBlock = (props) => {
   const { title, desc, bgImage } = props;
@@ -27,7 +40,22 @@ const WelcomeBlock = (props) => {
           </div>
         </div>
       </div>
-      <Footer/>
+      {/* <OctagonShape/> */}
+      <ToolTechnology/>
+      <Application />
+      <Activities />
+      <TypeOfApps/>
+      <SoftwareUpdate/>
+      <Fascinat/>
+      <Diverse/>
+      <Business/>
+      <Technology/>
+      <Frequently/>
+      <FullStackDeveloper/>
+      <Appreciation/>
+      <SweatCoin/>
+
+      <Footer />
     </>
   );
 };

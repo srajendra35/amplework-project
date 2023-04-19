@@ -1,0 +1,22 @@
+.technology{
+    background-color: 
+    rgb(248 249 250);
+}
+.techheading{
+    font-size: 30px;
+    color: rgb(33 37 41);
+    margin-top: 60px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 50px;
+    text-align: center;
+}
+.techpara{
+  
+    color: rgb(100, 105, 111);
+  
+}
+.mbspace{
+    margin-bottom: 5rem;
+    
+}

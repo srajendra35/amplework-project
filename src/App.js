@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import routes from "./routes";
 import Page404 from "./container/pages/Page404";
 import Page500 from "./container/pages/Page500";
+import DefaultLayout from "./componects/layout/DefaultLayout";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
 
             <Route exact path="/404" name='Page 404' element={<Page404 />} />
             <Route exact path="/500" name='Page 500' element={<Page500 />} />
+            <Route exact path="*" name='Home' element={<DefaultLayout/>}/>
           </Routes>
         </Suspense>
       </BrowserRouter>

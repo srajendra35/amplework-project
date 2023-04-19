@@ -1,0 +1,45 @@
+.section-6{
+    background-color:rgb(255 255 255);
+    padding: 100px 0px 0px 0px;
+    
+}
+.keep{
+  font-weight: 600;
+  color: rgb(245 164 3);
+  letter-spacing: 3px;
+}
+.types{
+    font-size: 30px;
+    color: rgb(33 37 41);
+    padding: 10px 0px 0px 0px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 50px;
+}
+.lorem{
+    font-size: 18px;
+    color: rgb(100, 105, 111);
+    font-family: serif;
+}
+.mointortitle1{
+  
+    font-family: serif;
+    font-weight: 600;
+
+}
+.monitorpara1{
+    font-size: 18px;
+    font-family: serif;
+    position: relative;
+    /* margin-top: -140px; */
+    /* padding: 10px 15px; */
+    text-align: center;
+    color:#111;
+    visibility: hidden;
+    opacity: 1;
+    pointer-events: none;
+    transition: 0.3s ease-in-out;
+   
+}
+ 
+ 
