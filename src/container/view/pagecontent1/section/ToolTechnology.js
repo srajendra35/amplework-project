@@ -1,5 +1,6 @@
 import React from "react";
 import '../../pagecontent1/PageContent.css'
+ 
 import { FiAirplay } from "react-icons/fi";
 import { SiSimilarweb } from "react-icons/si";
 import { TbSettingsOff } from "react-icons/tb";
@@ -7,7 +8,8 @@ import { CgPerformance } from "react-icons/cg";
 import { MdOutlineSecurity } from "react-icons/md";
 import { MdSystemUpdateAlt } from "react-icons/md";
 import { MdOutlineSettingsApplications } from "react-icons/md";
-import ToolTechnologyCard from "../../../../componects/tooltechnology/ToolTechnologycard";
+import ToolTechnologyCard from "../../../../componects/ToolTechnologycard";
+
 
 const ToolTechnology = () => {
   return (

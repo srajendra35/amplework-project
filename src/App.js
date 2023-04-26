@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Page404 from "./container/pages/Page404";
 import Page500 from "./container/pages/Page500";
-import DefaultLayout from "./componects/layout/DefaultLayout";
+import DefaultLayout from "./layout/DefaultLayout";
 
 function App() {
   return (

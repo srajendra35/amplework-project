@@ -1,12 +1,12 @@
 import React from "react";
-import "../fascinat/fascinat.css";
-import FascinatCard from "./Fascinatcard";
-import Img1 from "../../assets/facinating1.png";
-import Img2 from "../../assets/facinating2.png";
-import Img3 from '../../assets/facinating3.png'
-import Img4 from '../../assets/facinating4.png'
-import Img5 from '../../assets/facinating5.png'
-import Img6 from '../../assets/facinating6.png'
+import '../../pagecontent1/PageContent.css'
+import FascinatCard from "../../../../componects/Fascinatcard";
+import Img1 from "../../../../assets/facinating1.png";
+import Img2 from "../../../../assets/facinating2.png";
+import Img3 from '../../../../assets/facinating3.png'
+import Img4 from '../../../../assets/facinating4.png'
+import Img5 from '../../../../assets/facinating5.png'
+import Img6 from '../../../../assets/facinating6.png'
 const Fascinat = () => {
   return (
     <>

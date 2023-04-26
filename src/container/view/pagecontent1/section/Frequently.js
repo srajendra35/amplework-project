@@ -1,5 +1,5 @@
 import React from "react";
-import "../frequently/frequently.css";
+import '../../pagecontent1/PageContent.css'
 import Accordion from "react-bootstrap/Accordion";
 const Frequently = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
-import "../typeOfApps/typeofapps.css";
-import TypeOfAppCard from "./TypeOfAppCard";
+import '../../pagecontent1/PageContent.css'
+import TypeOfAppCard from "../../../../componects/TypeOfAppCard";
 import { AiFillCodepenCircle } from "react-icons/ai";
 import { SiEnterprisedb } from "react-icons/si";
 import { HiDeviceTablet } from "react-icons/hi";

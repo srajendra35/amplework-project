@@ -1,5 +1,5 @@
 import React from "react";
-import "../registrationFrom/registration.css";
+import '../../pagecontent1/PageContent.css'
 import { AiOutlineUser } from "react-icons/ai";
 import { HiOutlineMail } from "react-icons/hi";
 import { HiOutlinePhoneMissedCall } from "react-icons/hi";
@@ -12,11 +12,11 @@ import { BsDatabaseAdd } from "react-icons/bs";
 import { ImUsers } from "react-icons/im";
 import { MdOutlineAddCircleOutline } from "react-icons/md";
 import { RiTimerLine } from "react-icons/ri";
-import Boss from "../../assets/prakashSir.png";
-import Sir from "../../assets/santoshSir.png";
-import Mam from "../../assets/novaMam.png";
+import Boss from "../../../../assets/prakashSir.png";
+import Sir from "../../../../assets/santoshSir.png";
+import Mam from "../../../../assets/novaMam.png";
 import { GiRadioTower } from "react-icons/gi";
-import Catpcha from "../../assets/captcha.jpg";
+import Catpcha from "../../../../assets/captcha.jpg";
 const Registration = () => {
   return (
     <>

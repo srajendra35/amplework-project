@@ -1,8 +1,8 @@
 import React from "react";
-import "../digitalize/digitalize.css";
-import Mvp from "../../assets/mvp.jpg";
-import App from "../../assets/digitalApp.png";
-import Ai from "../../assets/digitalApp2.png";
+import '../../pagecontent1/PageContent.css'
+import Mvp from "../../../../assets/mvp.jpg";
+import App from "../../../../assets/digitalApp.png";
+import Ai from "../../../../assets/digitalApp2.png";
 import { Button, Card } from "react-bootstrap";
 const Digitalize = () => {
   return (

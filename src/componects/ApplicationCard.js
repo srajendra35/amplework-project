@@ -1,7 +1,7 @@
 import React from "react";
-import { Button, Card } from "react-bootstrap";
-import moniter from "../../assets/software-application.png";
-import "../applicationperformance/application.css";
+import { Card } from "react-bootstrap";
+ 
+ 
 const ApplicationCard = (props) => {
   return (
     <>

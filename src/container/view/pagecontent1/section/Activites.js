@@ -1,12 +1,11 @@
 import React from "react";
-import "../activites/activities.css";
+import '../../pagecontent1/PageContent.css'
 import { AiOutlineBug } from "react-icons/ai";
 import { MdSettingsRemote } from "react-icons/md";
-import ActivitiesCard from "./Activitescard";
 import { SiTestinglibrary } from "react-icons/si";
 import { FaHospitalUser } from "react-icons/fa";
 import { SiMinetest } from "react-icons/si";
-import { GrTestDesktop } from "react-icons/gr";
+  import ActivitiesCard from "../../../../componects/Activitescard"
 import { BiChip } from "react-icons/bi";
 import { FiDatabase } from "react-icons/fi";
 import { GiAbbotMeeple } from "react-icons/gi";

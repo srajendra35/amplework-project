@@ -1,6 +1,6 @@
 import React from "react";
-import "../diverse/diverse.css";
-import Angle from "../../assets/Group 13516.png";
+import '../../pagecontent1/PageContent.css'
+import Angle from "../../../../assets/Group 13516.png";
 
 import { Card } from "react-bootstrap";
 const Diverse = () => {

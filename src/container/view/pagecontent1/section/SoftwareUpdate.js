@@ -1,6 +1,6 @@
 import React from "react";
-import "../softwareupdate/softwareupdate.css";
-import SoftwareUpdateCard from "./SoftwareUpdatecard";
+import '../../pagecontent1/PageContent.css'
+import SoftwareUpdateCard from "../../../../componects/SoftwareUpdatecard";
 import { TbTargetArrow } from "react-icons/tb";
 import { FiTarget } from "react-icons/fi";
 const SoftwareUpdate = () => {

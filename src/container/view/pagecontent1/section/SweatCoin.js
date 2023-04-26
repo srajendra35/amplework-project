@@ -1,8 +1,8 @@
 import React from "react";
-import "../sweatcoin/sweatCoin.css";
+import '../../pagecontent1/PageContent.css'
 import { AiFillAndroid } from "react-icons/ai";
 import { BsApple } from "react-icons/bs";
-import Mobile from "../../assets/swetcoin.png";
+import Mobile from "../../../../assets/swetcoin.png";
 import { Carousel } from "react-bootstrap";
 const SweatCoin = () => {
   return (

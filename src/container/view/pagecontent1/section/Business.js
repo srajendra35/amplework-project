@@ -1,5 +1,5 @@
 import React from "react";
-import "../business/business.css";
+import '../../pagecontent1/PageContent.css'
 import { Card } from "react-bootstrap";
 const Business = () => {
   return (

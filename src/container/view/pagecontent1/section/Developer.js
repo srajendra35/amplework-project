@@ -1,11 +1,11 @@
 import React from "react";
-import "../fullstackdeveloper/developer.css";
+import '../../pagecontent1/PageContent.css'
 import { Button, Card } from "react-bootstrap";
 import { BsArrowUpRight } from "react-icons/bs";
-import Boss from "../../assets/boss.png";
-import Sir from "../../assets/sir.png";
-import Sahib from "../../assets/sahib-khan.jpg";
-import Raj from "../../assets/rajkumar.jpg";
+import Boss from "../../../../assets/boss.png";
+import Sir from "../../../../assets/sir.png";
+import Sahib from "../../../../assets/sahib-khan.jpg";
+import Raj from "../../../../assets/rajkumar.jpg";
 const FullStackDeveloper = () => {
   return (
     <>

@@ -1,7 +1,7 @@
 import React from "react";
-import "../technology/technology.css";
+import '../../pagecontent1/PageContent.css'
 import { AiOutlineCheckCircle } from "react-icons/ai";
-import Ample from "../../assets/4wli1xeu.png";
+import Ample from "../../../../assets/4wli1xeu.png";
 const Technology = () => {
   return (
     <>

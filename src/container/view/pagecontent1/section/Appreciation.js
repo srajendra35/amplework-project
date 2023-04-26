@@ -1,7 +1,7 @@
 import React from "react";
-import "../appreciation/appreciation.css";
-import Prom from "../../assets/promotion.png";
-import Mask from "../../assets/Mask Group 72.png";
+import '../../pagecontent1/PageContent.css'
+import Prom from "../../../../assets/promotion.png";
+import Mask from "../../../../assets/Mask Group 72.png";
 import { Card, Carousel } from "react-bootstrap";
 import { ImLinkedin2 } from "react-icons/im";
 const Appreciation = () => {

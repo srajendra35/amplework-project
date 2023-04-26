@@ -1,5 +1,5 @@
 import React from "react";
-import ApplicationCard from "../../../../componects/applicationperformance/ApplicationCard";
+import ApplicationCard from "../../../../componects/ApplicationCard";
 import { Button, CardGroup } from "react-bootstrap";
 import { FiMonitor } from "react-icons/fi";
 import { DiPython } from "react-icons/di";
