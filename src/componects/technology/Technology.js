@@ -14,7 +14,7 @@ const Technology = () => {
             </h4>
           </div>
           <div className="row mt-5">
-            <div className="col">
+            <div className="col-sm-12 col-lg-6">
               <p className="techpara">
                 Our clients generated more than $50 million in revenues by
                 creating seamless
@@ -59,9 +59,9 @@ const Technology = () => {
                 <p className="">Large scale & complex app building.</p>
               </div>
             </div>
-            <div className="col">
-              <div className="">
-                <img src={Ample} alt="" />
+            <div className="col-sm-12 col-lg-6">
+              <div>
+                <img src={Ample} width={'100%'} alt="" />
               </div>
             </div>
           </div>

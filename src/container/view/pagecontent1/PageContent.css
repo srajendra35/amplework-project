@@ -1,4 +1,32 @@
- .text{
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.ample{
+    letter-spacing: 3px;  
+    color: blue;
+}
+  
+.setting{
+    font-size: 10rem;
+}
+ 
+.para{
+    color: rgb(143, 145, 147);
+}
+.pantagle{
+  padding: 40px;
+  margin-top: 5rem;
+  justify-content: space-between;
+}
+.header{
+    position: absolute;
+    width: 100%;
+     
+}
+/* APPLICATION */
+.text{
     font-weight: 400rem;
    font-family: Arial, Helvetica, sans-serif;
  }

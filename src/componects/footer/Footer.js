@@ -72,7 +72,7 @@ const Footer = () => {
                   </Card.Body>
                 </Card>
               </div>
-              <div className="col col-lg-6">
+              <div className="col-sm-12 col-lg-6">
                 <Card
                   className="secondcard"
                   style={{
@@ -82,17 +82,17 @@ const Footer = () => {
                   }}
                 >
                   <Card.Body>
-                    <Card.Title className="fw-bolder text-white  p-2">
+                    <Card.Title className="fw-bolder text-white">
                       Are you a startup and want to go live asap projects?
                     </Card.Title>
 
-                    <Card.Text className="p-2 text-white">
+                    <Card.Text className=" text-white">
                       We Have been working with startup since our inception and
                       help them scale as they grow.Our Experience can help you
                       refine your business ideas and into the market asap.
                       <div className="d-flex mt-4">
-                        <div className="px-3">
-                          <div className="card2 p-2">
+                        <div>
+                          <div className="card2 p-2 mb-2">
                             <img src={Accessibility} alt="" />
                           </div>
                           <span className="text-warning">Accessibility</span>
@@ -111,7 +111,7 @@ const Footer = () => {
                         </div>
                       </div>
                     </Card.Text>
-                    <Button className="explore fw-bolder rounded-pill mt-2 mb-3 btn-outline-warning px-3">
+                    <Button className="explore fw-bolder rounded-pill mt-4 mb-4 btn-outline-warning px-3">
                       EXPLORE MORE
                     </Button>
                   </Card.Body>

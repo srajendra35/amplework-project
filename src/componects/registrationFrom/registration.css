@@ -1,0 +1,62 @@
+.res{
+    background-color: 
+    rgb(243 246 255);
+}
+.bordernone{
+    border: none;
+    background-color: rgb(243 246 255);
+    border-bottom: 1px solid gray;
+    border-radius: 0%;
+   
+}
+.bordermessage{
+    border: none;
+    background-color: rgb(243 246 255);
+    border-radius: 0%;
+}
+.buttonnone{
+    background-color:rgb(243 246 255) ;
+    border: none;
+    color: blue;
+}
+.add{
+    color: blue;
+    font-size: 20px;
+}
+.checkbox{
+    border: 1px solid rgb(219, 213, 213);
+    background-color: #fff;
+}
+ 
+.input{
+    border: none;
+    background-color: rgb(243 246 255);
+}
+.border1{
+     border-bottom: 1px solid gray;
+}
+.add{
+    color: blue;
+}
+.yes{
+    font-size: 10px;
+}
+.stat{
+    background-color: rgb(7, 30, 181);
+} 
+.boss{
+   
+    border-radius: 40px;
+}
+.lines{
+    line-height: 0px;
+    font-size: 15px;
+}
+.linesr{
+    font-size: 15px;
+} 
+.iconset{
+    color: white;
+    font-size: 25px;
+    
+}

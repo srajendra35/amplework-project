@@ -1,13 +1,14 @@
 import React from "react";
-import "../polygen/polygen.css";
-import imgs from "../../assets/imgs.svg";
+import '../PageContent.css'
+import imgs from '../../../../assets/imgs.svg'
+
 
 const OctagonShape = () => {
   return (
     <>
       <div className="container">
         <div className="pantagle row">
-          <div className="col-sm-12 col-lg-4">
+          <div className="col-sm-12 col-lg-6">
             <div>
               <img src={imgs} width={'100%'} alt="" />
             </div>

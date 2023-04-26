@@ -1,10 +1,10 @@
 import React from "react";
-import ApplicationCard from "./ApplicationCard";
+import ApplicationCard from "../../../../componects/applicationperformance/ApplicationCard";
 import { Button, CardGroup } from "react-bootstrap";
 import { FiMonitor } from "react-icons/fi";
 import { DiPython } from "react-icons/di";
-import { SiAtom } from "react-icons/si";
-import "../applicationperformance/application.css";
+import { SiAtom } from "react-icons/si"
+import '../../pagecontent1/PageContent.css'
 const Application = () => {
   return (
     <>
