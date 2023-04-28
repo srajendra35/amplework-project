@@ -39,6 +39,16 @@ import Stratup from './startupbg.png'
 import EnterWeb from './EnterpriseWebDeveloopmentBG.jpg'
 import Master from './masterpieces.png'
 import Appmobile from './appmobile.png'
+import Software from './software.png'
+import Uiux from './uiux.png'
+import Hybrid from './hybrid.png'
+import Seasonsale from './season.png'
+import Payment from './payment.png'
+import Content from './content.png'
+import Digital from './digital-transformation.png'
+import Coding from './coding(6).png'
+import Security from './security-system.png'
+import Repair from './repair.png'
 
 export {
     Ample,
@@ -81,6 +91,16 @@ export {
     EnterWeb,
     Master,
     Appmobile,
+    Software,
+    Uiux,
+    Hybrid,
+    Seasonsale,
+    Payment,
+    Content,
+    Digital,
+    Coding,
+    Security,
+    Repair,
 
 
 }

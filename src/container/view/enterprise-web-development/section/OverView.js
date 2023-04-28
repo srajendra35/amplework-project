@@ -9,9 +9,9 @@ const OverView = () => {
         <div className="container">
           <div className="row">
             <h6 className="overview fw-bolder">OVERVIEW</h6>
-            <h3 className="enterpriseheading">
+            <h2 className="enterpriseheading">
               Enterprise Web Development Services - Your Digital Success Partner
-            </h3>
+            </h2>
             <p className="with">
               With a team of experts related to web developers, designers and
               digital strategists - we offer customized solutions to businesses
@@ -27,7 +27,7 @@ const OverView = () => {
           </div>
           <div className="row">
             <div className="d-flex flex-wrap justify-content-center">
-              <div className=" col-sm-12 col-md-6 col-lg-4 p-2">
+              <div className="col-sm-12 col-md-6 col-lg-4 p-2">
                 <Card className="bgcolors  align-self-center">
                   <h6 className="entercard">ENTERPRISE WEB DEVELOPMENT</h6>
                 </Card>
