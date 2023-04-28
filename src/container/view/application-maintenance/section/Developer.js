@@ -1,11 +1,9 @@
 import React from "react";
-import '../../pagecontent1/PageContent.css'
+import '../ApplicationMaintenance.css'
 import { Button, Card } from "react-bootstrap";
 import { BsArrowUpRight } from "react-icons/bs";
-import Boss from "../../../../assets/boss.png";
-import Sir from "../../../../assets/sir.png";
-import Sahib from "../../../../assets/sahib-khan.jpg";
-import Raj from "../../../../assets/rajkumar.jpg";
+import { Boss, Raj, Sahib, Sir } from "../../../../assets";
+ 
 const FullStackDeveloper = () => {
   return (
     <>

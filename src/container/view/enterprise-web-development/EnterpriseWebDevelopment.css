@@ -1,0 +1,96 @@
+/* overview */
+.allview{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+   background-color:rgb(245 245 245);
+ 
+}
+.overview{
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    letter-spacing: 3px;
+
+}
+.enterpriseheading{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.with{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(95, 99, 102);
+    line-height: 30px;
+    padding-bottom: 3rem;
+    font-family: 'Playfair Display', serif;
+    
+   
+   
+}
+.entercard{
+    height: 50px;
+    padding: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+
+    
+}
+.bgcolors:hover{
+    background-color: blue;
+    color: white;
+}
+.bgcolors{
+    border: none;
+    background-color: #fffdfd;
+    box-shadow: 0px 2px 5px 0px;
+}
+
+/* .enterprise */
+
+.enterprise{
+    background-color: 
+    rgb(255 255 255);
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+.enter{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.enterpara{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(95, 99, 102);
+    line-height: 30px;
+    padding-bottom: 3rem;
+    font-family: 'Playfair Display', serif;
+  
+}
+.lifont{
+    font-size: 18px;
+    margin-top: 8px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+li{
+    list-style: none;
+}
+.lets{
+    background-color: 
+    rgb(3 45 226);
+    border-radius: 0px;
+    margin-top: 35px;
+    font-size: 18px;
+    padding: 0px;
+    
+     
+}
+.enterprisesoftware{
+    background-color: rgb(248 249 250);
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}

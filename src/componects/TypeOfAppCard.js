@@ -3,11 +3,11 @@ import { Card } from "react-bootstrap";
 const TypeOfAppCard = (props) => {
   return (
     <>
-      <Card className="mointorcard" style={{backgroundColor:`${props.bgcolor}`,color:`${props.color}`}}>
+      <Card className="mointorcard1">
         <Card.Body>
-          <div className="monitor text-center text-primary">{props.icon}</div>
+          <div className="monitor1 text-center text-primary">{props.icon}</div>
           <Card.Title className="mointortitle1 text-center">{props.title}</Card.Title>
-          <Card.Text className="monitorpara1 text-center">{props.paragrapha}</Card.Text>
+          <Card.Text className="monitorpara1 text-center text-white">{props.paragrapha}</Card.Text>
         </Card.Body>
       </Card>
     </>

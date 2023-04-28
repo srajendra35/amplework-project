@@ -15,13 +15,13 @@ import Appreciation from "./section/Appreciation";
 import SweatCoin from "./section/SweatCoin";
 import Digitalize from "./section/Digitalize";
 import Registration from "./section/Registration";
-import { WelcomeBlock } from "../../../componects";
-import Banner from '../../../assets/banner.jpg'
+import WelcomeBlock from "../../../componects/welcomeBlock/WelcomeBlock";
+import { Banner } from "../../../assets";
 
-const PageContent1 = () => {
+const ApplicationMaintenance = () => {
   return (
     <>
-       <WelcomeBlock bgImage={Banner} title="APPLICATION MAINTENANCE AND SUPPORT" desc="Top class application maintenance and support services for error-free high-performing applications" />
+       <WelcomeBlock bgImage={Banner} title="APPLICATION MAINTENANCE AND SUPPORT" desc="Top class application maintenance and support services for error-free high-performing applications"  btn="schedule btn"/>
       <OctagonShape />
       <ToolTechnology />
       <Application />
@@ -42,4 +42,4 @@ const PageContent1 = () => {
     </>
   );
 };
-export default PageContent1;
+export default ApplicationMaintenance;

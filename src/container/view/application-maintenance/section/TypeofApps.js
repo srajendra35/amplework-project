@@ -1,5 +1,5 @@
 import React from "react";
-import '../../pagecontent1/PageContent.css'
+import '../ApplicationMaintenance.css'
 import TypeOfAppCard from "../../../../componects/TypeOfAppCard";
 import { AiFillCodepenCircle } from "react-icons/ai";
 import { SiEnterprisedb } from "react-icons/si";
@@ -22,57 +22,61 @@ const TypeOfApps = () => {
             </h4>
             <p className="lorem text-center">
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.  Lorem Ipsum has been the industry's<br/> standard dummy text
-              ever since the 1500s,
+              industry. Lorem Ipsum has been the industry's
+              <br /> standard dummy text ever since the 1500s,
             </p>
           </div>
           <div className="row">
-            <div className=" d-flex flex-wrap justify-content-center">
-              <div className="moniter1">
-                <TypeOfAppCard
-                  //   icon={< />}
-                  title="Web Apps"
-                  bgcolor='blue'
-                  color='white'
-                  paragrapha="We conduct maintenance of applications that run within a web browser and can be accessed through the internet."
-                />
-              </div>
-              <div className="moniter2">
+            <div className="d-flex flex-wrap justify-content-center">
+              <div className="p-2">
                 <TypeOfAppCard
                   icon={<AiFillCodepenCircle />}
-                  title="Cloud Apps & SaaS"
+                  title="Web Apps"
+                  // paragrapha="We conduct maintenance of applications that run within a web browser and can be accessed through the internet."
                 />
               </div>
-              <div className="moniter3">
+              <div className="p-2">
+                <TypeOfAppCard
+                  icon={<AiFillCodepenCircle />}
+                  title="Cloud Apps & SaaS app"
+                />
+              </div>
+              <div className="p-2">
                 <TypeOfAppCard
                   icon={<SiEnterprisedb />}
-                  title="Enterprise Apps"
+                  title="Enterprise Apps values"
                 />
               </div>
-              <div className="moniter4">
-                <TypeOfAppCard icon={<HiDeviceTablet />} title="AR/VR Apps" />
+              <div className="p-2">
+                <TypeOfAppCard
+                  icon={<HiDeviceTablet />}
+                  title="AR/VR  maintenance"
+                />
               </div>
             </div>
           </div>
           <div className="row">
             <div className="d-flex flex-wrap justify-content-center">
-              <div className="moniter1">
+              <div className=" p-2">
                 <TypeOfAppCard
                   icon={<BsDatabaseFillAdd />}
                   title="Database Apps"
                 />
               </div>
-              <div className="moniter2">
-                <TypeOfAppCard icon={<IoIosBrowsers />} title="AI/ML Apps" />
+              <div className="p-2 ">
+                <TypeOfAppCard icon={<IoIosBrowsers />} title="AI/ML Apps " />
               </div>
-              <div className="moniter3">
+              <div className=" p-2">
                 <TypeOfAppCard
                   icon={<SlGameController />}
-                  title="Gaming Apps"
+                  title="Gaming Apps  "
                 />
               </div>
-              <div className="moniter4">
-                <TypeOfAppCard icon={<AiFillDashboard />} title="Hybrid Apps" />
+              <div className=" p-2">
+                <TypeOfAppCard
+                  icon={<AiFillDashboard />}
+                  title="Hybrid Apps "
+                />
               </div>
             </div>
           </div>

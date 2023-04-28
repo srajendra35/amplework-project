@@ -1,5 +1,5 @@
 import React from "react";
-import '../../pagecontent1/PageContent.css'
+import '../ApplicationMaintenance.css'
  
 import { FiAirplay } from "react-icons/fi";
 import { SiSimilarweb } from "react-icons/si";
@@ -28,32 +28,32 @@ const ToolTechnology = () => {
             </p>
           </div>
           <div className="row">
-            <div className=" d-flex flex-wrap justify-content-center">
-              <div className="moniter1">
+            <div className="d-flex flex-wrap justify-content-center">
+              <div className="p-2">
                 <ToolTechnologyCard
                   icon={<FiAirplay />}
                   title="Proactive Monitoring & Maintenance"
-                  paragrapha="  We use advanced monitoring tools and technologies to proactively
-            identify potential issues before they become critical. This ensures
-            the smooth functioning of your applications, reducing downtime and
-            improving user experience.."
+            //       paragrapha="  We use advanced monitoring tools and technologies to proactively
+            // identify potential issues before they become critical. This ensures
+            // the smooth functioning of your applications, reducing downtime and
+            // improving user experience.."
                 />
               </div>
-              <div className="moniter2">
+              <div className="p-2 ">
                 <ToolTechnologyCard
                   icon={<SiSimilarweb />}
                   title="Web App
 Maintenance"
                 />
               </div>
-              <div className="moniter3">
+              <div className="p-2 ">
                 <ToolTechnologyCard
                   icon={<TbSettingsOff />}
                   title="Incident Management
-and Resolution"
+"
                 />
               </div>
-              <div className="moniter4">
+              <div className="p-2 ">
                 <ToolTechnologyCard
                   icon={<CgPerformance />}
                   title="Performance
@@ -64,32 +64,32 @@ Optimization"
           </div>
           <div className="row">
             <div className="d-flex flex-wrap justify-content-center">
-              <div className="moniter1">
+              <div className="p-2">
                 <ToolTechnologyCard
                   icon={<MdOutlineSecurity />}
                   title="Application Security
 and Compliance"
-                  paragrapha="  We use advanced monitoring tools and technologies to proactively
-            identify potential issues before they become critical. This ensures
-            the smooth functioning of your applications, reducing downtime and
-            improving user experience.."
+            //       paragrapha="  We use advanced monitoring tools and technologies to proactively
+            // identify potential issues before they become critical. This ensures
+            // the smooth functioning of your applications, reducing downtime and
+            // improving user experience.."
                 />
               </div>
-              <div className="moniter2">
+              <div className="p-2">
                 <ToolTechnologyCard
                   icon={<MdSystemUpdateAlt />}
                   title="Regular
 Updates & Upgrades"
                 />
               </div>
-              <div className="moniter3">
+              <div className="p-2">
                 <ToolTechnologyCard
                   icon={<MdOutlineSettingsApplications />}
                   title="Application
 Integration"
                 />
               </div>
-              <div className="moniter4">
+              <div className="p-2">
                 <ToolTechnologyCard
                   icon={<CgPerformance />}
                   title="Customized

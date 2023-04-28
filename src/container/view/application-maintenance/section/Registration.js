@@ -1,5 +1,5 @@
 import React from "react";
-import '../../pagecontent1/PageContent.css'
+import '../ApplicationMaintenance.css'
 import { AiOutlineUser } from "react-icons/ai";
 import { HiOutlineMail } from "react-icons/hi";
 import { HiOutlinePhoneMissedCall } from "react-icons/hi";
@@ -12,11 +12,10 @@ import { BsDatabaseAdd } from "react-icons/bs";
 import { ImUsers } from "react-icons/im";
 import { MdOutlineAddCircleOutline } from "react-icons/md";
 import { RiTimerLine } from "react-icons/ri";
-import Boss from "../../../../assets/prakashSir.png";
-import Sir from "../../../../assets/santoshSir.png";
-import Mam from "../../../../assets/novaMam.png";
+ 
 import { GiRadioTower } from "react-icons/gi";
-import Catpcha from "../../../../assets/captcha.jpg";
+import { Captcha, Novamam, Pcs, Santoshsir } from "../../../../assets";
+ 
 const Registration = () => {
   return (
     <>
@@ -198,7 +197,7 @@ const Registration = () => {
                           <input className="mx-2" type="checkbox" />
                           <span>I'm not a robot</span>
                         </div>
-                        <img src={Catpcha} width={"10%"} alt="" />
+                        <img src={Captcha} width={"10%"} alt="" />
                       </div>
                     </div>
                     <div className="col-sm-5 align-self-center text-lg-end text-md-end">
@@ -263,19 +262,19 @@ const Registration = () => {
               <h4 className="text-white mt-5 mb-5">Top Executives</h4>
               <div className="d-flex text-white">
                 <div className="text-center">
-                  <img className="boss" src={Boss} width={"80%"} alt="" />
+                  <img className="boss" src={Pcs} width={"80%"} alt="" />
                   <p className="linesr mt-1">Prakash Saini</p>
                   <p className="lines text-center">CTO</p>
                 </div>
                 <div className="text-center">
-                  <img className="boss" src={Sir} width={"80%"} alt="" />
+                  <img className="boss" src={Santoshsir} width={"80%"} alt="" />
                   <div>
                     <p className="linesr mt-2">Santosh Singh</p>
                     <p className="lines text-center">CEO</p>
                   </div>
                 </div>
                 <div className="text-center">
-                  <img className="boss" src={Mam} width={"80%"} alt="" />
+                  <img className="boss" src={Novamam} width={"80%"} alt="" />
                   <p className="linesr mt-2">Supernova C.</p>
                   <p className="lines text-center">CXO</p>
                 </div>

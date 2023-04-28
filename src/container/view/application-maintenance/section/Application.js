@@ -4,7 +4,7 @@ import { Button, CardGroup } from "react-bootstrap";
 import { FiMonitor } from "react-icons/fi";
 import { DiPython } from "react-icons/di";
 import { SiAtom } from "react-icons/si"
-import '../../pagecontent1/PageContent.css'
+import '../ApplicationMaintenance.css'
 const Application = () => {
   return (
     <>

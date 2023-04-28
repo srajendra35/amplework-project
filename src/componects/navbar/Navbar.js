@@ -1,6 +1,6 @@
 import React from "react";
-import Ample from "../../assets/amplworkLogo.png";
-import '../../container/view/pagecontent1/PageContent.css'
+ 
+import { Ample } from "../../assets";
 
 const Navbar = () => {
   return (
@@ -8,7 +8,9 @@ const Navbar = () => {
       <div className="header">
         <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
           <div className="container-fluid">
-            <img src={Ample} width="15%" alt="Amplelogo" />
+            <div className="navimg">
+              <img src={Ample} width="30%" alt="Amplelogo" />
+            </div>
 
             <button
               className="navbar-toggler"
@@ -21,84 +23,83 @@ const Navbar = () => {
             >
               <span className="bg-warning rounded  navbar-toggler-icon"></span>
             </button>
-            <div>
-              <div
-                className="collapse navbar-collapse"
-                id="navbarSupportedContent"
-              >
-                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li className="nav-item">
-                    <a
-                      className="nav-link active text-white"
-                      aria-current="page"
-                      href="#"
-                    >
-                      Who we are
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a
-                      className="nav-link active text-white"
-                      aria-current="page"
-                      href="#"
-                    >
-                      What we do
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a
-                      className="nav-link active text-white"
-                      aria-current="page"
-                      href="#"
-                    >
-                      Our Culture
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a
-                      className="nav-link active text-white"
-                      aria-current="page"
-                      href="#"
-                    >
-                      Work with us
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a
-                      className="nav-link active text-white"
-                      aria-current="page"
-                      href="#"
-                    >
-                      Case Studies
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a
-                      className="nav-link active text-white"
-                      aria-current="page"
-                      href="#"
-                    >
-                      Blog
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a
-                      className="nav-link active text-white"
-                      aria-current="page"
-                      href="#"
-                    >
-                      Contact Us
-                    </a>
-                  </li>
-                </ul>
 
-                <button
-                  className="btn btn-outline-warning fw-bolder rounded-pill"
-                  type="submit"
-                >
-                  INQUIRE NOW
-                </button>
-              </div>
+            <div
+              className="collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <li className="nav-item">
+                  <a
+                    className="nav-link active text-white"
+                    aria-current="page"
+                    href="#"
+                  >
+                    Who we are
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="nav-link active text-white"
+                    aria-current="page"
+                    href="#"
+                  >
+                    What we do
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="nav-link active text-white"
+                    aria-current="page"
+                    href="#"
+                  >
+                    Our Culture
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="nav-link active text-white"
+                    aria-current="page"
+                    href="#"
+                  >
+                    Work with us
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="nav-link active text-white"
+                    aria-current="page"
+                    href="#"
+                  >
+                    Case Studies
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="nav-link active text-white"
+                    aria-current="page"
+                    href="#"
+                  >
+                    Blog
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="nav-link active text-white"
+                    aria-current="page"
+                    href="#"
+                  >
+                    Contact Us
+                  </a>
+                </li>
+              </ul>
+
+              <button
+                className="btn   fw-bolder rounded-pill "style={{backgroundColor:'rgb(245 164 3)'}}
+                type="submit"
+              >
+                INQUIRE NOW
+              </button>
             </div>
           </div>
         </nav>

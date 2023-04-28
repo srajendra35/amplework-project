@@ -1,7 +1,8 @@
 import React from "react";
-import '../../pagecontent1/PageContent.css'
+import '../ApplicationMaintenance.css'
 import { AiOutlineCheckCircle } from "react-icons/ai";
-import Ample from "../../../../assets/4wli1xeu.png";
+import { MobileTechnology } from "../../../../assets";
+ 
 const Technology = () => {
   return (
     <>
@@ -61,7 +62,7 @@ const Technology = () => {
             </div>
             <div className="col-sm-12 col-lg-6">
               <div>
-                <img src={Ample} width={'100%'} alt="" />
+                <img src={MobileTechnology} width={'100%'} alt="" />
               </div>
             </div>
           </div>

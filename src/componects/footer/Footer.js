@@ -1,25 +1,28 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import Watch from "../../assets/partTime.png";
-import FullTime from "../../assets/hourglass.png";
-import Hours from "../../assets/calendar.png";
 import Button from "react-bootstrap/Button";
-import cardbanner from "../../assets/enterpriseBg.png";
-import Accessibility from "../../assets/Accessibility.png";
-import Adaptability from "../../assets/Adaptability.png";
-import Scalability from "../../assets/Scalability.png";
-import Amplelogo from "../../assets/amplworkLogo.png";
-import Iso from "../../assets/iso.png";
-import goolge from "../../assets/google.png";
-import Aws from "../../assets/aws.png";
-import register from "../../assets/register.png";
-import temple from "../../assets/startupbg.png";
 import "../footer/footer.css";
 import { CardGroup } from "react-bootstrap";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { CiTwitter } from "react-icons/ci";
 import { AiOutlineInstagram } from "react-icons/ai";
-import Dmca from "../../assets/dmca.png";
+import {
+  Access,
+  Adap,
+  Amplelogo,
+  EnterPrise,
+  Stratup,
+  Aws,
+  Dmca,
+  FullTime,
+  Google,
+  Hours,
+  Iso,
+  Register,
+  Scal,
+  Watch,
+} from "../../assets";
+
 const Footer = () => {
   return (
     <>
@@ -31,7 +34,7 @@ const Footer = () => {
                 <Card
                   className="cardbackground"
                   style={{
-                    backgroundImage: `url(${cardbanner})`,
+                    backgroundImage: `url(${EnterPrise})`,
                     backgroundRepeat: "no-repeat",
                     backgroundPosition: "bottom 0px right 0px",
                   }}
@@ -76,7 +79,7 @@ const Footer = () => {
                 <Card
                   className="secondcard"
                   style={{
-                    backgroundImage: `url(${temple})`,
+                    backgroundImage: `url(${Stratup})`,
                     backgroundRepeat: "no-repeat",
                     backgroundPosition: "bottom 0px right 0px",
                   }}
@@ -93,19 +96,19 @@ const Footer = () => {
                       <div className="d-flex mt-4">
                         <div>
                           <div className="card2 p-2 mb-2">
-                            <img src={Accessibility} alt="" />
+                            <img src={Access} alt="" />
                           </div>
                           <span className="text-warning">Accessibility</span>
                         </div>
                         <div className="px-3">
                           <div className="card2  p-2 text-center">
-                            <img src={Adaptability} alt="" />
+                            <img src={Adap} alt="" />
                           </div>
                           <span className="text-warning">Adaptability</span>
                         </div>
                         <div className="px-3">
                           <div className="card2  p-1">
-                            <img src={Scalability} alt="" />
+                            <img src={Scal} alt="" />
                           </div>
                           <span className="text-warning">Scalability</span>
                         </div>
@@ -139,7 +142,7 @@ const Footer = () => {
               </div>
               <div>
                 <div>
-                  <img src={register} alt="register" />
+                  <img src={Register} alt="register" />
                 </div>
                 <span className="fw-bold  text-primary">DUN & Brodstreet</span>
                 <div className="text-center">
@@ -148,7 +151,7 @@ const Footer = () => {
               </div>
               <div>
                 <div>
-                  <img src={goolge} alt="" />
+                  <img src={Google} alt="" />
                 </div>
                 <span className="fw-bold  text-primary">Google cloud</span>
                 <div className="text-center">
@@ -388,7 +391,7 @@ const Footer = () => {
                 <div className="col-sm-6">
                   <li>Amplework @ 2023 | All Right Reserved</li>
                 </div>
-                <p className=" col text-center">
+                <p className="col text-center">
                   <img src={Dmca} alt="" />
                 </p>
               </div>

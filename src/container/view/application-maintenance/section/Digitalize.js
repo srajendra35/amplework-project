@@ -1,9 +1,8 @@
 import React from "react";
-import '../../pagecontent1/PageContent.css'
-import Mvp from "../../../../assets/mvp.jpg";
-import App from "../../../../assets/digitalApp.png";
-import Ai from "../../../../assets/digitalApp2.png";
+import '../ApplicationMaintenance.css'
+ 
 import { Button, Card } from "react-bootstrap";
+import { AiContent, Developer, Mvp } from "../../../../assets";
 const Digitalize = () => {
   return (
     <>
@@ -26,13 +25,13 @@ const Digitalize = () => {
             </div>
             <div className="col-sm-12 col-md-6 col-lg-4">
               <Card>
-                <img src={App} alt="" />
+                <img src={Developer} alt="" />
               </Card>
               <p className="mt-1">Foldable Smartphone App Development – 5 Dos</p>
             </div>
             <div className="col-sm-12 col-md-6 col-lg-4">
               <Card>
-                <img src={Ai} alt="" />
+                <img src={AiContent} alt="" />
               </Card>
               <p className="mt-1">Mobile DevOps – Advantages & Challenges</p>
             </div>

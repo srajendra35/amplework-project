@@ -1,5 +1,5 @@
 import React from "react";
-import '../../pagecontent1/PageContent.css'
+import '../ApplicationMaintenance.css'
 import SoftwareUpdateCard from "../../../../componects/SoftwareUpdatecard";
 import { TbTargetArrow } from "react-icons/tb";
 import { FiTarget } from "react-icons/fi";
@@ -32,7 +32,7 @@ const SoftwareUpdate = () => {
                 <SoftwareUpdateCard
                   icon={<FiTarget />}
                   title="Issue"
-                  para="Slow and glitch software updates with no-real benefits for users?"
+                  para="Slow and glitch software updates with no-real  users?"
                   ample='Amplework’s Solution'
                 />
               </div>

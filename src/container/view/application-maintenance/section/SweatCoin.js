@@ -1,9 +1,10 @@
 import React from "react";
-import '../../pagecontent1/PageContent.css'
+import '../ApplicationMaintenance.css'
 import { AiFillAndroid } from "react-icons/ai";
 import { BsApple } from "react-icons/bs";
-import Mobile from "../../../../assets/swetcoin.png";
+ 
 import { Carousel } from "react-bootstrap";
+import { Mobile } from "../../../../assets";
 const SweatCoin = () => {
   return (
     <>

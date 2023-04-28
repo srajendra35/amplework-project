@@ -20,11 +20,21 @@
   margin-top: 5rem;
   justify-content: space-between;
 }
+
+
+/* navbar */
+
+
 .header{
     position: absolute;
     width: 100%;
      
 }
+.navimg{
+    width: 50%;
+ 
+}
+ 
 /* APPLICATION */
 .text{
     font-weight: 400rem;
@@ -84,6 +94,12 @@
     padding: 100px 0px 0px 0px;
     
 }
+ 
+.monitor1{
+    font-size: 40px;
+    margin-bottom: 35px;
+ 
+}
 .keep{
   font-weight: 600;
   color: rgb(245 164 3);
@@ -95,7 +111,7 @@
     padding: 10px 0px 0px 0px;
     font-weight: 400;
     letter-spacing: 1px;
-    line-height: 50px;
+    
 }
 .lorem{
     font-size: 18px;
@@ -103,22 +119,17 @@
     font-family: serif;
 }
 .mointortitle1{
-  
     font-family: serif;
     font-weight: 600;
 
 }
 .monitorpara1{
+    width: 200px;
+    height: 50px;
     font-size: 18px;
     font-family: serif;
-    position: relative;
     text-align: center;
-    color:#111;
-    visibility: hidden;
-    opacity: 1;
-    pointer-events: none;
-    transition: 0.3s ease-in-out;
-   
+ 
 }
 
 /* softwareupdate */
@@ -161,6 +172,7 @@
     margin-bottom: 5rem;
     margin-top: 2rem;
 }
+ 
 /* fascint */
 
 .fascinat{
@@ -526,45 +538,31 @@
     line-height: 50px;
     font-weight: 200;
 }
-
-.monitor{
-    font-size: 3rem;
-    position: relative;
-    width:250px;
-    height:100px;
-    top:-35px;
-    z-index: 1;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
-
-
-}
-.mointorcard{
-    /* height: 38vh; */
-    /* padding: 5px 10px 5px 5px; */
-    max-width: 300px;
-    height: 215px;
-    margin: 30px 10px;
-    padding: 20px 15px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
-    transition: 0.5s ease-in-out;
-
-}
+ 
 .mointorcard :hover{
-    height: 50px;
+     background-color: blue;
+     color: white;
+     transition: 2s ;
  
 }
- 
-.mointortitle{
+.mointorcard:hover .moniter{
+    color: white; 
+}
+.moniter{
     color: blue;
+}
+ 
+ 
+.mointortitle1{
+    width: 250px;
+    height: 60px;
     font-family: serif;
     font-weight: 600;
 }
-.monitorpara{
+.monitorpara1{
     font-size: 18px;
     font-family: serif;
     position: relative;
-    /* margin-top: -140px; */
-    /* padding: 10px 15px; */
     text-align: center;
     color:#111;
     visibility: hidden;

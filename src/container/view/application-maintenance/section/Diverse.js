@@ -1,5 +1,5 @@
 import React from "react";
-import '../../pagecontent1/PageContent.css'
+import '../ApplicationMaintenance.css'
 import Angle from "../../../../assets/Group 13516.png";
 
 import { Card } from "react-bootstrap";

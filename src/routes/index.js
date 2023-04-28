@@ -1,6 +1,10 @@
+import ApplicationMaintenance from "../container/view/application-maintenance/ApplicationMaintenacne";
+import EnterpriseWebDevelopment from "../container/view/enterprise-web-development/EnterpriseWebDevelopment";
 
-import PageContent1 from "../container/view/pagecontent1/PageContent1";
+const routes = [
+  { path: "/", name: "ApplicationMaintenance", element: ApplicationMaintenance },
+  { path: "/Home", name: "ApplicationMaintenance", element: EnterpriseWebDevelopment },
 
-const routes = [{ path: "/", name: "Navbar", element: PageContent1 }];
+];
 
 export default routes;
