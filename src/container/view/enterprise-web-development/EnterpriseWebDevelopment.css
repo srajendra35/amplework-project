@@ -82,7 +82,7 @@
 li{
     list-style: none;
 }
-.lets{
+.letsenter{
     background-color: 
     rgb(3 45 226);
     border-radius: 0px;
@@ -227,21 +227,17 @@ li{
     padding-top: 2rem;
 }
  
- 
-.textreact{
-    background-color: 
-    rgb(245 165 3);
-    padding: 2px 20px;
-    border-radius: 20px;
-}
 .textreact1{
     background-color: rgb(255 255 255);
     padding: 2px 20px;
     border-radius: 20px;
     border: 1px solid blue;
 }
+.textreact1:hover{
+    background-color: #f5a503;
+}
  
-.technology{
+.technologys{
     background-color: rgb(234 243 254);
     padding: 2px 20px ;
 }
@@ -251,12 +247,139 @@ li{
     padding: 2px 20px;
     border: 1px solid blue;
 }
-.technology:hover{
+.git:hover{
+    background-color: #f5a503;
+}
+.technologys:hover{
     background-color: rgb(0 48 255);
  
 
 }
-.technology:hover .front{
+.technologys:hover .front{
     color: #fff;
 }
+
+/* benefitenterprise */
+
+.benefitenterprise{
+    background-color: rgb(245 245 245);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.benefits{
+    color: rgb(33 37 41);
+    text-align: center;
+    letter-spacing: 1px;
+    
+}
+.benefitpara{
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: rgb(68 68 68);
+    margin-top: 15px;
+    text-align: center;
+}
+.higher{
+    color: 
+    rgb(33 37 41);
+    text-align: end;
+    
+}
  
+.imghigher{
+    background-color: 
+    rgb(240 100 102);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+ 
+
+    
+}
+.scable{
+    letter-spacing: 1px;    
+    font-size: 17px;
+    color: rgb(68 68 68);
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    text-align: end;
+  
+   
+}
+.enhance{
+    color: 
+    rgb(33 37 41);
+    
+    
+}
+.well{
+    letter-spacing: 1px;    
+    font-size: 17px;
+    color: rgb(68 68 68);
+   
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    
+  
+}
+.analytics{
+    background-color:
+    rgb(55 189 234);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px -5px 5px 5px rgb(183, 225, 238);
+}
+.analticspara{
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: rgb(68 68 68);
+    margin-top: 15px;
+    text-align: center;
+}
+
+/* selectamplework */
+
+.selectamplework{
+    background-color: 
+    rgb(248 249 250);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.reasons{
+    color: 
+    rgb(33 37 41);
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+}
+.selectpara{
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: rgb(68 68 68);
+}
+.text-350{
+    color: 
+    rgb(7 49 190);
+    font-weight: bold;
+     
+}
+.project{
+    letter-spacing: 1px;
+}
+.cardprop{
+    padding: 10px 0px 0px 20px;
+    border-right: 1px solid wheat;
+}
+.textacc{
+    padding: 10px 0px 0px 20px;
+}
+.imgselect{
+    width: 100%;
+    
+}
+.sec{
+    width: 100%;
+    background-color: red;
+    
+}

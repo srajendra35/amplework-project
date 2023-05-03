@@ -1,8 +1,17 @@
 .welcome{
+
   padding-top: 250px;
-  padding-bottom: 300px;
+  padding-bottom: 200px;
   
 }
 .titlespace{
   letter-spacing: 3px;
+ 
+}
+.amplepageheading{
+  letter-spacing: 2px;
+  font-size: 40px;
+  font-weight: 600;
+ 
+
 }

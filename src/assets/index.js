@@ -49,7 +49,78 @@ import Digital from './digital-transformation.png'
 import Coding from './coding(6).png'
 import Security from './security-system.png'
 import Repair from './repair.png'
-
+import higher from './good-quality.png'
+import Create from './create.png'
+import Analytics from './analytics.png'
+import Select from './select.png'
+import Mobility from './mobility.jpg'
+import Overview from './overview.png'
+import Skill from './skill.png'
+import Itreation from './iteration.png'
+import Trun from './turn.png'
+import Secure from './secure-data.png'
+import G4 from './g4593.png'
+import Image1 from './image1.png'
+import Object from './objects.png'
+import Facial from './facial_recognition_1-[Converted].png'
+import New from './new.png'
+import Girl from './girl.png'
+import Dotted from './dotted-circle.png'
+import SecondDotted from  './seconddotted.png'
+import Alpha from './Alpha_work_smarter.png'
+import soflate from './Group 10025.png'
+import  School from './SH logo.png'
+import Mapl from './MAPL.png'
+import Layer from './Layer_x0020_1.png'
+import Vista from './vast-logo.png'
+import Wandelwall from './wanderwell (2)@3x.png'
+import Removale from './revolve.png'
+import Cms from './csm_GolfClix_9bbe4d107b.png'
+import Group13 from './Group 13102.png'
+import Guard from './GuardMetrics_logo-300x106.png'
+import Sweat from './sweat.png'
+import Talk from './talkremit.png'
+import Rega from './regaa.png'
+import Motil from './motil.png'
+import Engagemental from './Engagemental.png'
+import Cardbg from './cardbg.png'
+import Recommend from './recommendedimg.png'
+import Fintech from './fintech.png'
+import Trunk from './truck.png'
+import World from './world.png'
+import Heartbeat from './heartbeat.png'
+import Marketplace from './marketplace.png'
+import Parmilahut from './pamela-hat.png'
+import Graduation from './graduation-cap.png'
+import onlineshop  from './online-shop.png'
+import Key from './key.png'
+import Video from './video.png'
+import Ball from  './ball.png'
+import Agronomy from './agronomy.png'
+import Layers from './Layer_1.png'
+import Dots from './dots (1).png'
+import Creates from  './create1.png'
+import Study from './study.png'
+import StudyTime from './studytime.png'
+import Processcard from './processcard.png'
+import Lanuching from './Lanuching.png'
+import Running from './Running.png'
+import Softarebenner from './softwareMaintainBg.png'
+import Tawer from './tawer.png'
+import Antivirus from './anitivirus.png'
+import DataTransfer from './data-transfer.png'
+import Online from './online-chat.png'
+import Onlinechat from './onlinechat.png'
+import Musicwand from './magic-wand.png'
+import Speedtest from './speed-test.png'
+import vijay from './vj18ur9k.png'
+import Code from './code.png'
+import Mobiletech from './mobile.png'
+import Growth from './growth(1).png' 
+import Surface from './surface1.png'
+import Customer from './customer-review(1).png'
+import Carbg from './carbg.png'
+import Process1 from './process1.png'
 export {
     Ample,
     Banner,
@@ -101,6 +172,78 @@ export {
     Coding,
     Security,
     Repair,
+    higher,
+    Create,
+    Analytics,
+    Select,
+    Mobility,
+    Overview,
+    Skill,
+    Itreation,
+    Trun,
+    Secure,
+    G4,
+    Image1,
+    Object,
+    Facial,
+    New,
+    Girl,
+    Dotted,
+    SecondDotted,
+    Alpha,
+    soflate,
+    School,
+    Mapl,
+    Layer,
+    Vista,
+    Wandelwall,
+    Removale,
+    Cms,
+    Group13,
+    Guard,
+    Sweat,
+    Talk,
+    Rega,
+    Motil,
+    Engagemental,
+    Cardbg,
+    Recommend,
+    Fintech,
+    Trunk,
+    World,
+    Heartbeat,
+    Marketplace,
+    Parmilahut,
+    Graduation,
+    onlineshop,
+    Key,
+    Video,
+    Ball,
+    Agronomy,
+    Layers,
+    Dots,
+    Creates,
+    Study,
+    StudyTime,
+    Processcard,
+    Lanuching,
+    Running,
+    Softarebenner,
+    Tawer,
+    Antivirus,
+    DataTransfer,
+    Online,
+    Onlinechat,
+    Musicwand,
+    Speedtest,
+    vijay,
+    Code,
+    Mobiletech,
+    Growth,
+    Surface,
+    Customer,
+    Carbg,
+    Process1,
 
 
 }

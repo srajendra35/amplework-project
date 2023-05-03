@@ -1,5 +1,4 @@
 import React from "react";
- 
 import { Ample } from "../../assets";
 
 const Navbar = () => {
@@ -28,7 +27,7 @@ const Navbar = () => {
               className="collapse navbar-collapse"
               id="navbarSupportedContent"
             >
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <ul className=" fs-5 navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
                   <a
                     className="nav-link active text-white"
@@ -95,7 +94,8 @@ const Navbar = () => {
               </ul>
 
               <button
-                className="btn   fw-bolder rounded-pill "style={{backgroundColor:'rgb(245 164 3)'}}
+                className="btn fw-bolder rounded-pill "
+                style={{ backgroundColor: "rgb(245 164 3)" }}
                 type="submit"
               >
                 INQUIRE NOW

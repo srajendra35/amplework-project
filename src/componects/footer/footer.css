@@ -1,6 +1,22 @@
 .bgcolor{
+    width: 100%;
+    height: 70px;
     background-color: #0326c2;
+    padding: 15px 15px 15px 15px;
+    border-radius: 15px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    
+    
 }
+ 
+.watch{
+    width: 80px;
+    height: 70px;
+    margin: 0px 0px 1rem;
+   
+}
+ 
 .cardbackground{
     background-color: 
     #1f13f2
@@ -23,6 +39,12 @@
 }
 .card2{
     background-color:  #1e0376;
+    width: 80px;
+    height: 70px;
+    margin: 0px 0px 1rem;
+    border-radius: 15px;
+    padding: 7px 7px 7px 7px;
+   
 }
 .amplelogo{
     margin-top: 5rem;

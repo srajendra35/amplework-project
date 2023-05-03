@@ -3,6 +3,7 @@ import WelcomeBlock from "../../../componects/welcomeBlock/WelcomeBlock";
 import {
   Appmobile,
   Content,
+  Developer,
   EnterWeb,
   Hybrid,
   Master,
@@ -16,6 +17,13 @@ import "./EnterpriseWebDevelopment.css";
 import EnterPriseWeb from "./section/EnterPriseWeb";
 import Capabilities from "./section/Capabilities";
 import TechnologyStack from "./section/TechnologyStack";
+import BeneifitsEnterprise from "./section/BeneifitsEnterprise";
+import SelectAmplework from "./section/SelectAmplework";
+import FullStackDeveloper from "../application-maintenance/section/Developer";
+import Appreciation from "../application-maintenance/section/Appreciation";
+import SweatCoin from "../application-maintenance/section/SweatCoin";
+import Digitalize from "../application-maintenance/section/Digitalize";
+import Registration from "../application-maintenance/section/Registration";
 
 const EnterpriseWebDevelopment = () => {
   return (
@@ -147,8 +155,19 @@ const EnterpriseWebDevelopment = () => {
         <Capabilities />
       </section>
       <section className="technologystack">
-        <TechnologyStack/>
+        <TechnologyStack />
       </section>
+      <section className="benefitenterprise">
+        <BeneifitsEnterprise/>
+      </section>
+      <section className="selectamplework">
+        <SelectAmplework/>
+      </section>
+     <FullStackDeveloper/>
+     <Appreciation/>
+     <SweatCoin/>
+     <Digitalize/>
+     <Registration/>
     </>
   );
 };

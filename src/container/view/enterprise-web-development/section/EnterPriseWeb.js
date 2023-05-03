@@ -52,7 +52,7 @@ const EnterPriseWeb = (props) => {
               &nbsp; {props.litext5}
             </li>
             <div className="col-sm-12 text-center text-lg-start">
-              <Button className=" lets text-white px-4 fw-bolder">
+              <Button className=" letsenter text-white px-4 fw-bolder">
                 Let's Talk
               </Button>
             </div>

@@ -7,17 +7,15 @@ const Capabilities = () => {
     <>
       <div className="container">
         <div className="row">
-          <div className="col-lg-4 align-self-center">
+          <div className="col-lg-6 align-self-center">
             <h2 className="coreheading1">Our Core Capabilities</h2>
             <p className="corepara1">
-              Our core capabilities are rooted in delivering innovative and
-              custom solutions that meet the unique needs of each of our
-              clients.
+             Our core capabilities are rooted in delivering innovative and custom solutions that meet the unique needs of each of our clients. Our capabilities help us to deliver cutting-edge business solutions.
             </p>
           </div>
-          <div className="col-lg-8">
-            <div className="row justify-content-between">
-              <div className="col-lg-5 col-md-6">
+          <div className="col-lg-6">
+            <div className="row">
+              <div className="col-lg-6 col-md-6">
                 <div>
                   <Card className="cardpadding">
                     <div>
@@ -46,7 +44,7 @@ const Capabilities = () => {
                 </div>
               </div>
 
-              <div className="col-lg-5 col-md-6">
+              <div className="col-lg-6 col-md-6">
                 <div className="mt-5">
                   <Card className="cardpadding">
                     <div>

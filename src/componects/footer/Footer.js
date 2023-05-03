@@ -32,7 +32,7 @@ const Footer = () => {
             <CardGroup>
               <div className="col-sm-12 col-lg-6">
                 <Card
-                  className="cardbackground"
+                  className="cardbackground p-4"
                   style={{
                     backgroundImage: `url(${EnterPrise})`,
                     backgroundRepeat: "no-repeat",
@@ -40,32 +40,34 @@ const Footer = () => {
                   }}
                 >
                   <Card.Body>
-                    <Card.Title className="fw-bolder text-white p-2">
+                    <Card.Title className="fw-bolder text-white">
                       Do you want to hire resources for your project?
                     </Card.Title>
 
-                    <Card.Text className="p-2 text-white">
+                    <Card.Text className="text-white">
                       we have web and app development teams to serve medern
                       tech-savy client by bidding on the challenges on their
                       bespoken requirement.
-                      <div className="d-flex mt-5">
-                        <div className="px-3">
-                          <div className="bgcolor p-2">
-                            <img src={Watch} alt="" />
+                      <div className="row mt-5">
+                        <div className="d-flex">
+                          <div className=" pe-sm-5  pe-xl-5 pr-xl-3  text-center"> 
+                            <div className="watch">
+                              <img className="bgcolor" src={Watch} alt="" />
+                            </div>
+                            Part Time
                           </div>
-                          <span>Full-Time</span>
-                        </div>
-                        <div className="px-3">
-                          <div className="bgcolor p-1 text-center">
-                            <img src={FullTime} alt="" />
+                          <div className="pe-sm-5 pe-xl-5 pr-xl-3   text-center">
+                            <div className="watch">
+                              <img className="bgcolor" src={FullTime} alt="" />
+                            </div>
+                            Full-Time
                           </div>
-                          <span>Part Time</span>
-                        </div>
-                        <div className="px-3">
-                          <div className="bgcolor p-2">
-                            <img src={Hours} alt="" />
+                          <div className="pe-sm-5 pe-xl-5 pr-xl-3   text-center">
+                            <div className="watch">
+                              <img className="bgcolor" src={Hours} alt="" />
+                            </div>
+                            Hourly
                           </div>
-                          <span>Hourly</span>
                         </div>
                       </div>
                     </Card.Text>
@@ -77,7 +79,7 @@ const Footer = () => {
               </div>
               <div className="col-sm-12 col-lg-6">
                 <Card
-                  className="secondcard"
+                  className="secondcard p-4"
                   style={{
                     backgroundImage: `url(${Stratup})`,
                     backgroundRepeat: "no-repeat",
@@ -89,25 +91,25 @@ const Footer = () => {
                       Are you a startup and want to go live asap projects?
                     </Card.Title>
 
-                    <Card.Text className=" text-white">
+                    <Card.Text className="text-white">
                       We Have been working with startup since our inception and
                       help them scale as they grow.Our Experience can help you
                       refine your business ideas and into the market asap.
-                      <div className="d-flex mt-4">
-                        <div>
-                          <div className="card2 p-2 mb-2">
+                      <div className="d-flex mt-2"> 
+                        <div className="pe-sm-5  pe-xl-5 pr-xl-3  text-center">
+                          <div className="card2">
                             <img src={Access} alt="" />
                           </div>
                           <span className="text-warning">Accessibility</span>
                         </div>
-                        <div className="px-3">
-                          <div className="card2  p-2 text-center">
+                        <div className=" pe-sm-5  pe-xl-5 pr-xl-3  text-center">
+                          <div className="card2">
                             <img src={Adap} alt="" />
                           </div>
                           <span className="text-warning">Adaptability</span>
                         </div>
-                        <div className="px-3">
-                          <div className="card2  p-1">
+                        <div className=" pe-sm-5  pe-xl-5 pr-xl-3  text-center">
+                          <div className="card2">
                             <img src={Scal} alt="" />
                           </div>
                           <span className="text-warning">Scalability</span>

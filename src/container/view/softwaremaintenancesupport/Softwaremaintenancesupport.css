@@ -1,0 +1,296 @@
+/* growingyourbusiness */
+
+
+ .growingyourbusiness{
+    background-color: rgb(245 245 245);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  
+}
+.leaveheading{
+    letter-spacing: 1px;
+    color:  rgb(33 37 41);
+    font-weight: 600;
+    line-height: 50px;
+    padding-bottom: 1rem;
+    font-stretch: normal;
+     
+}
+.leavepara{
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: rgb(90, 90, 89);
+
+}
+/* .imgssss{
+    position: absolute;
+    z-index: 2;
+   
+   
+}
+.imageborder::before{
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 65%;
+    border: 1px solid #032de2;
+     margin-top: 50px; 
+     margin-left: -20px; 
+    border-radius: 20px;
+
+} */
+
+/* serviceSoftware */
+
+.servicemaintenance{
+    background-color:rgb(255 255 255);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    
+}
+.software-heading{
+    letter-spacing: 1px;
+    color:  rgb(33 37 41);
+    font-weight: 600;
+    line-height: 50px;
+    padding-bottom: 1rem;
+    font-stretch: normal;
+    text-align: center;
+}
+.software-para{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: rgb(90, 90, 89);
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.antivirus{
+    background-color: 
+    rgb(240 100 102);
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px -8px 0px 5px 
+    rgb(255 225 225);
+     
+}
+.antivirus1{
+    background-color: 
+    rgb(158 109 175);
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px -8px 0px 5px 
+    rgb(238 208 248);
+}
+.antivirus2{
+    background-color:
+rgb(247 164 87);
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 10px -8px 0px 5px 
+rgb(255 229 204);
+}
+.antivirus3{
+    background-color:rgb(55 189 234);
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 10px -8px 0px 5px 
+rgb(201 242 255);
+}
+.antivirus4{
+    background-color: 
+    rgb(244 131 98);
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 10px -8px 0px 5px 
+rgb(255 231 225);
+}
+.antivirus5{
+    background-color: 
+rgb(78 189 142);
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 10px -8px 0px 5px 
+    rgb(210 246 231);
+}
+
+
+
+.software-bugs{
+    letter-spacing: 1px;
+    padding-top: 2rem;
+    font-weight: 500;
+    color: black;
+}
+.software-para-hire{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: rgb(90, 90, 89);
+    padding-top: 2rem;
+    
+}
+
+/* integrateprofessionnal */
+
+.integrateprofessionnal{
+    background-color: rgb(248 249 250);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.intrgate-heading{
+    letter-spacing: 1px;
+    color:  rgb(33 37 41);
+    font-weight: 600;
+    line-height: 50px;
+    padding-bottom: 1rem;
+    font-stretch: normal;
+    text-align: center;
+}
+.intgate-para{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: rgb(90, 90, 89);
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.setups{
+    letter-spacing: 1px;
+    font-weight: 400;
+    line-height: 40px;
+    padding-bottom: 1rem;
+    padding: 0px 0px 0px 22px;
+}
+.after-para{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: rgb(90, 90, 89);
+    padding: 0px 0px 0px 50px;
+}
+.rxdot{
+    border: 1px solid gray;
+    border-radius: 15px;
+    line-height: 10px;
+      
+}
+.border-bottms:before{
+    content: "";
+    position: absolute;
+    left: 325px;
+    width: 1px;
+    height: 225px;
+    background-color: #c4c4c4;
+    opacity: 1;
+}
+
+/* accomplish */
+
+.accomplish{
+    background-color: rgb(255 255 255);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.accomplish-heading{
+    letter-spacing: 1px;
+    color:  rgb(33 37 41);
+    font-weight: 600;
+    line-height: 50px;
+    padding-bottom: 1rem;
+    font-stretch: normal;
+    text-align: center;
+}
+.accomplish-para{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: rgb(90, 90, 89);
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.defaulttransport {
+    display: block;
+}
+.transimageblock {
+    width: 100%;
+    height: 120px;
+}
+.departmental-hover-para {
+    display: none;
+}
+.departmentalhover:hover .defaulttransport {
+    display: none;
+}
+.departmentalhover:hover .departmental-hover-para {
+    display: block;
+}
+.departmentalhover {
+    box-shadow: 1px 1px 10px darkslategrey;
+}
+.departmentalhover:hover {
+    background-color: rgb(3, 45, 226);
+    color: #FFF;
+    translate: -10px -20px;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/* processcombines */
+.processcombines{
+     padding-top: 6rem;
+     padding-bottom: 6rem;
+     
+}
+.process-heading{
+    letter-spacing: 1px;
+    color:  rgb(33 37 41);
+    font-weight: 600;
+    line-height: 50px;
+    padding-bottom: 1rem;
+    font-stretch: normal;
+    text-align: center;
+}
+.process-para{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: rgb(90, 90, 89);
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.requi{
+    letter-spacing: 1px;
+}
+.we-para{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: rgb(90, 90, 89);
+    letter-spacing: 1px;
+}
+.oneprocess{
+    justify-content: center;
+    align-items: center;    
+    color: #fff;
+    -webkit-text-stroke: 1px #1d73f8;
+}
+ 

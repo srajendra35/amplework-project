@@ -19,7 +19,7 @@ const WelcomeBlock = (props) => {
             <div className="row justify-content-center">
               <div className="text-center">
                 <h6 className="titlespace fw-bolder text-warning">{title}</h6>
-                <h2 className="fw-bold text-white mt-3">{desc}</h2>
+                <h2 className="amplepageheading  text-white mt-3">{desc}</h2>
                { btn &&btn.length ? <Button btn={btn}/>:" "}
               </div>
             </div>
