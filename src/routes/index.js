@@ -5,9 +5,9 @@ import Softwaremaintenancesupport from "../container/view/softwaremaintenancesup
 
 const routes = [
   { path: "/", name: "ApplicationMaintenance", element: ApplicationMaintenance },
-  { path: "/Home", name: "ApplicationMaintenance", element: EnterpriseWebDevelopment },
-  { path: "/mobility", name: "enterprisemobility", element: EnterpriseMobility},
-  { path: "/software", name: "Softwaremaintenance", element: Softwaremaintenancesupport},
+  { path: "/About-us", name: "ApplicationMaintenance", element: EnterpriseWebDevelopment },
+  { path: "/services", name: "enterprisemobility", element: EnterpriseMobility},
+  { path: "/our-culture", name: "Softwaremaintenance", element: Softwaremaintenancesupport},
 
 ];
 

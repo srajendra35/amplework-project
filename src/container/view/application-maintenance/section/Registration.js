@@ -1,9 +1,9 @@
 import React from "react";
-import '../ApplicationMaintenance.css'
+import "../ApplicationMaintenance.css";
 import { AiOutlineUser } from "react-icons/ai";
 import { HiOutlineMail } from "react-icons/hi";
 import { HiOutlinePhoneMissedCall } from "react-icons/hi";
-import { Button, Col, Form, InputGroup, Row } from "react-bootstrap";
+import { Button, Card, Col, Form, InputGroup, Row } from "react-bootstrap";
 import { AiOutlineSkype } from "react-icons/ai";
 import { BsCurrencyDollar } from "react-icons/bs";
 import { BiMessageDetail } from "react-icons/bi";
@@ -12,10 +12,11 @@ import { BsDatabaseAdd } from "react-icons/bs";
 import { ImUsers } from "react-icons/im";
 import { MdOutlineAddCircleOutline } from "react-icons/md";
 import { RiTimerLine } from "react-icons/ri";
- 
+
 import { GiRadioTower } from "react-icons/gi";
 import { Captcha, Novamam, Pcs, Santoshsir } from "../../../../assets";
- 
+import CustomButton from "../../../../componects/button/Button";
+
 const Registration = () => {
   return (
     <>
@@ -155,12 +156,7 @@ const Registration = () => {
                         <BiMessageDetail className="text-warning" />
                       </InputGroup.Text>
 
-                      <Form.Control
-                        required
-                        className="bordermessage"
-                        type="text"
-                        placeholder="MESSAGE*"
-                      />
+                      <Card.Text>MESSAGE</Card.Text>
                     </InputGroup>
                   </Form.Group>
                   <Form.Group as={Col} md="12" controlId="validationCustom01">
@@ -201,9 +197,10 @@ const Registration = () => {
                       </div>
                     </div>
                     <div className="col-sm-5 align-self-center text-lg-end text-md-end">
-                      <Button className="p-3" variant="warning">
-                        Send Your Inquiry
-                      </Button>
+                      <CustomButton
+                        title="Send Your Inquiry"
+                        className={"send-your-inquiry"}
+                      />
                     </div>
                   </div>
                 </Row>

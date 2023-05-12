@@ -1,5 +1,5 @@
 import React from "react";
-import '../ApplicationMaintenance.css'
+import "../ApplicationMaintenance.css";
 import SoftwareUpdateCard from "../../../../componects/SoftwareUpdatecard";
 import { TbTargetArrow } from "react-icons/tb";
 import { FiTarget } from "react-icons/fi";
@@ -15,33 +15,34 @@ const SoftwareUpdate = () => {
             </h4>
             <p className="ipsum text-center">
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's<br/> standard dummy text
-              ever since the 1500s,
+              industry. Lorem Ipsum has been the industry's
+              <br /> standard dummy text ever since the 1500s,
             </p>
           </div>
           <div className="row">
             <div className="bluecard  d-flex flex-wrap justify-content-center">
               <div className="fixed col-sm-12 col-md-6 col-lg-4">
                 <SoftwareUpdateCard
-                  icon={<TbTargetArrow />}
+                  icon={<TbTargetArrow  />}
                   title="Fixed"
-                  para="Our in-house support matrix and best-in-industry prices will resultant in cost reduction by 30% to 40%."
+                  para="Our in-house support matrix and best-in-industry prices will ."
+                   
                 />
               </div>
               <div className="fixed col-sm-12 col-md-6 col-lg-4">
                 <SoftwareUpdateCard
-                  icon={<FiTarget />}
+                  icon={<FiTarget   />}
                   title="Issue"
-                  para="Slow and glitch software updates with no-real  users?"
-                  ample='Amplework’s Solution'
+                  para="Slow and glitch software updates with no-real."
+                  ample="Amplework’s Solution"
                 />
               </div>
               <div className="fixed col-sm-12  col-md-6 col-lg-4">
                 <SoftwareUpdateCard
-                  icon={<FiTarget />}
+                  icon={<FiTarget  />}
                   title="Issue"
                   para="Need profound resources for program visibility?"
-                  ample='Amplework’s Solution'
+                  ample="Amplework’s Solution"
                 />
               </div>
             </div>

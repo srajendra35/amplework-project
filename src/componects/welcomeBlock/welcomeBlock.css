@@ -1,5 +1,4 @@
 .welcome{
-
   padding-top: 250px;
   padding-bottom: 200px;
   
@@ -10,8 +9,20 @@
 }
 .amplepageheading{
   letter-spacing: 2px;
-  font-size: 40px;
+  line-height: 55px;
+  font-size: 42px;
   font-weight: 600;
+  padding-bottom: 2rem;
  
 
+}
+.custombutton{
+  color: #212529;
+  background-color: #f5a403;
+  border-color: #f5a403;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 7px;
+  padding: 10px;
+  letter-spacing: 2px;
 }

@@ -1,9 +1,14 @@
 import React from "react";
-import '../button/button.css'
-const Button = () => {
-  return <>
-    <button type="button" class="button mt-3 btn btn-warning fw-bolder px-4 p-3">Schedule a call</button>
-    
-  </>;
+
+const CustomButton = (props) => {
+  const { title, heading, onClick, className} = props;
+  return (
+    <>
+      {heading}
+      <button type="button" className={`${className}`} onClick={onClick}>
+        {title}
+      </button>
+    </>
+  );
 };
-export default Button;
+export default CustomButton;

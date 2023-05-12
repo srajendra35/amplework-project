@@ -180,7 +180,13 @@ li{
     rgb(68 68 68);
 }
 .cardpadding{
+    
     padding: 20px 0px 0px 30px;
+}
+.cardpadding:hover{
+    background-color: 
+    rgb(3 45 226);
+    color: #fff;
 }
 .corepara2{
     width: 250px;

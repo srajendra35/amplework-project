@@ -1,8 +1,8 @@
 import React from "react";
-import '../ApplicationMaintenance.css'
+import "../ApplicationMaintenance.css";
 import { AiOutlineCheckCircle } from "react-icons/ai";
 import { MobileTechnology } from "../../../../assets";
- 
+
 const Technology = () => {
   return (
     <>
@@ -18,38 +18,33 @@ const Technology = () => {
             <div className="col-sm-12 col-lg-6">
               <p className="techpara">
                 Our clients generated more than $50 million in revenues by
-                creating seamless
-                <br /> mobile applications that run without any bugs or
-                glitches. Thus, we continue to
-                <br /> upgrade our services to support clients in generating
-                higher revenue for
-                <br /> operations.
+                creating seamless mobile applications that run without any bugs
+                or glitches. Thus, we continue to upgrade our services to
+                support clients in generating higher revenue for operations.
               </p>
               <div className="d-flex">
                 <div className="text-primary">
                   <AiOutlineCheckCircle />
                 </div>
-                <p className="">Personalized business services.</p>
+                <p className="px-2">Personalized business services.</p>
               </div>
               <div className="d-flex">
                 <div className="text-primary">
                   <AiOutlineCheckCircle />
                 </div>
-                <p className="">Advanced practices for DevOps.</p>
+                <p className="px-2">Advanced practices for DevOps.</p>
               </div>
               <div className="d-flex">
                 <div className="text-primary">
                   <AiOutlineCheckCircle />
                 </div>
-                <p className="">
-                  Proficiency in AI/ML/Blockchain Solutions.
-                </p>
+                <p className="px-2">Proficiency in AI/ML/Blockchain Solutions.</p>
               </div>
               <div className="d-flex">
                 <div className="text-primary">
                   <AiOutlineCheckCircle />
                 </div>
-                <p className="">
+                <p className="px-2">
                   Exclusive support for digital transformation.
                 </p>
               </div>
@@ -57,12 +52,12 @@ const Technology = () => {
                 <div className="text-primary">
                   <AiOutlineCheckCircle />
                 </div>
-                <p className="">Large scale & complex app building.</p>
+                <p className="px-2">Large scale & complex app building.</p>
               </div>
             </div>
             <div className="col-sm-12 col-lg-6">
               <div>
-                <img src={MobileTechnology} width={'100%'} alt="" />
+                <img src={MobileTechnology} width={"100%"} alt="" />
               </div>
             </div>
           </div>

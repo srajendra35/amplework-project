@@ -1,13 +1,7 @@
 import React from "react";
-import '../ApplicationMaintenance.css'
-import TypeOfAppCard from "../../../../componects/TypeOfAppCard";
-import { AiFillCodepenCircle } from "react-icons/ai";
-import { SiEnterprisedb } from "react-icons/si";
-import { HiDeviceTablet } from "react-icons/hi";
-import { IoIosBrowsers } from "react-icons/io";
-import { SlGameController } from "react-icons/sl";
-import { AiFillDashboard } from "react-icons/ai";
-import { BsDatabaseFillAdd } from "react-icons/bs";
+import "../ApplicationMaintenance.css";
+import CustomCard from "../../../../componects/customCard/CustomCard";
+import { TypeofApp } from "../../../../mockup/TypeofApp";
 const TypeOfApps = () => {
   return (
     <>
@@ -26,59 +20,21 @@ const TypeOfApps = () => {
               <br /> standard dummy text ever since the 1500s,
             </p>
           </div>
-          <div className="row">
-            <div className="d-flex flex-wrap justify-content-center">
-              <div className="p-2">
-                <TypeOfAppCard
-                  icon={<AiFillCodepenCircle />}
-                  title="Web Apps"
-                  // paragrapha="We conduct maintenance of applications that run within a web browser and can be accessed through the internet."
+          <div className="typeofapps">
+            {TypeofApp.map((item) => {
+              return (
+                <CustomCard
+                  icon={item.icon}
+                  cardclass="typecard"
+                  heading={item.heading}
+                  cardbody="typetext"
+                  imgclass="type-img"
+                  headingclass="typeheading"
+                  para={item.para}
+                  paraclass="type-para"
                 />
-              </div>
-              <div className="p-2">
-                <TypeOfAppCard
-                  icon={<AiFillCodepenCircle />}
-                  title="Cloud Apps & SaaS app"
-                />
-              </div>
-              <div className="p-2">
-                <TypeOfAppCard
-                  icon={<SiEnterprisedb />}
-                  title="Enterprise Apps values"
-                />
-              </div>
-              <div className="p-2">
-                <TypeOfAppCard
-                  icon={<HiDeviceTablet />}
-                  title="AR/VR  maintenance"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="d-flex flex-wrap justify-content-center">
-              <div className=" p-2">
-                <TypeOfAppCard
-                  icon={<BsDatabaseFillAdd />}
-                  title="Database Apps"
-                />
-              </div>
-              <div className="p-2 ">
-                <TypeOfAppCard icon={<IoIosBrowsers />} title="AI/ML Apps " />
-              </div>
-              <div className=" p-2">
-                <TypeOfAppCard
-                  icon={<SlGameController />}
-                  title="Gaming Apps  "
-                />
-              </div>
-              <div className=" p-2">
-                <TypeOfAppCard
-                  icon={<AiFillDashboard />}
-                  title="Hybrid Apps "
-                />
-              </div>
-            </div>
+              );
+            })}
           </div>
         </div>
       </section>

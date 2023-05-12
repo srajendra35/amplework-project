@@ -1,5 +1,5 @@
 import React from "react";
-import { Analytics, Create, higher } from "../../../../assets";
+import { Analytics, Create, cool, higher } from "../../../../assets";
 const BeneifitsEnterprise = () => {
   return (
     <>
@@ -38,12 +38,10 @@ const BeneifitsEnterprise = () => {
             </p>
           </div>
 
-          {/* <div className="imghigher">
-            <img src={higher} alt="" />
-          </div> */}
+        
           <div className="col-lg-4  ">
             <div>
-              <img src={Create} width={"100%"} alt="" />
+              <img src={cool} width={"100%"} alt="" />
             </div>
           </div>
           <div className="col-lg-4 ">

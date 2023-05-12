@@ -1,10 +1,10 @@
 import React from "react";
-import ApplicationCard from "../../../../componects/ApplicationCard";
-import { Button, CardGroup } from "react-bootstrap";
+import { CardGroup } from "react-bootstrap";
 import { FiMonitor } from "react-icons/fi";
-import { DiPython } from "react-icons/di";
-import { SiAtom } from "react-icons/si"
-import '../ApplicationMaintenance.css'
+import "../ApplicationMaintenance.css";
+import CustomButton from "../../../../componects/button/Button";
+import CustomCard from "../../../../componects/customCard/CustomCard";
+import { CardMock } from "../../../../mockup/CustomCard";
 const Application = () => {
   return (
     <>
@@ -20,36 +20,20 @@ const Application = () => {
             <br /> Of The Applications In A Perfect Shape At Amplework
           </p>
           <CardGroup>
-            <ApplicationCard
-              icon={<FiMonitor />}
-              heading="Application Re-engineering"
-              paragrapha="  Our developers evaluate existing applications through a series of
-            in-house testing processes in order to evaluate the functionalities
-            of the applications that need to be re-engineered."
-              backgroundColor="rgb(47 126 255)"
-            />
-
-            <ApplicationCard
-              icon={<DiPython />}
-              heading="Application Migration & Integration"
-              paragrapha="Our engineers are profound in supporting you for moving applications from physical or local settings to remote based servers. We also provide application migration as well as integration services."
-              backgroundColor="rgb(17 95 224)"
-            />
-
-            <ApplicationCard
-              icon={<SiAtom />}
-              heading="Application Support"
-              paragrapha="It includes a range of activities for ensuring proper functioning and optimization of a web or mobile application. We focus towards continuous monitoring and continuous improvement of functions."
-              backgroundColor="
-rgb(4 80 206)"
-            />
+            {CardMock.map((items) => {
+              return (
+                <CustomCard
+                  icon={<FiMonitor className="fs-1  mb-2" />}
+                  cardclass="appli-bg-color"
+                  heading={items.heading}
+                  headingclass="appliactionheading"
+                  para={items.para}
+                  paraclass="appliactonpara"
+                />
+              );
+            })}
           </CardGroup>
-          <Button
-            className="freequitebtn fw-bolder text-white"
-            variant="warning"
-          >
-            Get a Free Quote
-          </Button>
+          <CustomButton title="Get a Free Quote" className={"get-a-free"} />
         </div>
       </div>
     </>

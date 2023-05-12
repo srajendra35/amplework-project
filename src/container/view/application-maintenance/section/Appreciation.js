@@ -9,15 +9,15 @@ const Appreciation = () => {
       <Carousel variant='dark'>
         <Carousel.Item>
           <div className="appreciation">
-            <div className="container mt-5 mb-5">
+            <div className="container ">
               <div className="row">
                 <div>
                   <img src={Prom} alt="" />
                 </div>
 
-                <h4 className="text-center fw-bolder">
+                <h2 className="text-center fw-bolder">
                   We Proudly Showcase - Our Client Appreciations
-                </h4>
+                </h2>
               </div>
               <div className="row mt-5">
                 <div className="col-sm-12 col-lg-6">
@@ -31,9 +31,9 @@ const Appreciation = () => {
                   </div>
                 </div>
                 <div className="col-sm-12 col-lg-6">
-                  <h4 className="ampleworkheading mb-4 text-center mt-5">
+                  <h3 className="ampleworkheading mb-4 text-center">
                     Amplework is a great team to work with, highly recommended.
-                  </h4>
+                  </h3>
                   <p className="flaw text-center mt-5">
                     Flawless Plank was an AI based fitness application and we
                     are glad we get a chance to work on this project with
@@ -55,15 +55,15 @@ const Appreciation = () => {
         </Carousel.Item>
         <Carousel.Item>
         <div className="appreciation">
-        <div className="container mt-5 mb-5">
+        <div className="container">
           <div className="row">
             <div>
               <img src={Prom} alt="" />
             </div>
 
-            <h4 className="text-center fw-bolder">
+            <h2 className="text-center fw-bolder">
               We Proudly Showcase - Our Client Appreciations
-            </h4>
+            </h2>
           </div>
           <div className="row mt-5">
             <div className="col-sm-12 col-lg-6">
@@ -77,9 +77,9 @@ const Appreciation = () => {
               </div>
             </div>
             <div className="col-sm-12 col-lg-6">
-              <h4 className="ampleworkheading mb-4 text-center mt-5">
+              <h3 className="ampleworkheading mb-4 text-center">
                 Amplework is a great team to work with, highly recommended.
-              </h4>
+              </h3>
               <p className="flaw text-center mt-5">
                 Flawless Plank was an AI based fitness application and we are
                 glad we get a chance to work on this project with Amplework.

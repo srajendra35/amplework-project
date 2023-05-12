@@ -1,6 +1,7 @@
 import React from "react";
 import '../ApplicationMaintenance.css'
 import { HEXA } from "../../../../assets";
+import PrimaryText from "../../../../componects/primarytext/PrimaryText";
  
 
 
@@ -18,9 +19,10 @@ const OctagonShape = () => {
             <h6 className="ample fw-bolder">
               AMPLEWORK SOFTWARE
             </h6>
-            <h4 className="fw-bolder">
-              Your Dedicated Supporter for App Maintenance Services
-            </h4>
+         
+            <PrimaryText heading="Your Dedicated Supporter for App Maintenance Services"  />
+              {/* Your Dedicated Supporter for App Maintenance Services */}
+           
             <p className="para mt-3 fw-bolder">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum
               voluptatibus aut accusamus quo consectetur magni est

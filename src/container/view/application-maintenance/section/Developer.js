@@ -1,9 +1,10 @@
 import React from "react";
-import '../ApplicationMaintenance.css'
+import "../ApplicationMaintenance.css";
 import { Button, Card } from "react-bootstrap";
 import { BsArrowUpRight } from "react-icons/bs";
 import { Boss, Raj, Sahib, Sir } from "../../../../assets";
- 
+import CustomCard from "../../../../componects/customCard/CustomCard";
+
 const FullStackDeveloper = () => {
   return (
     <>
@@ -14,18 +15,18 @@ const FullStackDeveloper = () => {
               <Card className="fullcard mb-5">
                 <Card.Body>
                   <div className="d-flex flex-wrap justify-content-around">
-                    <div className="">
+                    <div>
                       <h4 className="dedicated text-white mb-3">
                         Dedicated Full-stack developer?
                       </h4>
-                      <p className="text-white">
+                      <p className="text-white fs-5">
                         Let's Discuss Your Project how we will transform your
                         idea into an amazing digital product?
                       </p>
                     </div>
-                    <div>
+                    <div className="align-self-center">
                       <Button
-                        className="rounded-pill p-2 px-2"
+                        className="rounded-pill p-2 px-2 fs-5"
                         variant="primary"
                       >
                         Get 2 Week Free Trial
@@ -38,37 +39,35 @@ const FullStackDeveloper = () => {
             </div>
           </div>
           <div className="row">
-            <h4 className="text-center fw-bolder">
+            <h2 className="text-center fw-bolder">
               Trusted and Skilled Developer
-            </h4>
+            </h2>
             <p className="ourpara mt-3 mb-5">
               Our developers are ready to join your team and build amazing
               mobile & web apps.
             </p>
           </div>
-          <div className="row">
-            <div className="d-flex flex-wrap justify-content-center mb-5">
-              <Card className="border-0 mx-4">
-                <div>
-                  <img className="border cardimage" src={Boss} alt="" />
-                </div>
-              </Card>
-              <Card className=" border-0 mx-4">
-                <div>
-                  <img className="border cardimage" src={Sir} alt="" />
-                </div>
-              </Card>
-              <Card className=" border-0 mx-4">
-                <div>
-                  <img className="border cardimage" src={Sahib} alt="" />
-                </div>
-              </Card>
-              <Card className=" border-0 mx-4">
-                <div>
-                  <img className="border cardimage" src={Raj} alt="" />
-                </div>
-              </Card>
-            </div>
+          <div className="developer-card text-center">
+            <CustomCard
+              cardclass={"border-0"}
+              image={Boss}
+              img={"border cardimage"}
+            />
+            <CustomCard
+              cardclass={"border-0"}
+              image={Sir}
+              img={"border cardimage"}
+            />
+            <CustomCard
+              cardclass={"border-0"}
+              image={Sahib}
+              img={"border cardimage"}
+            />
+            <CustomCard
+              cardclass={"border-0"}
+              image={Raj}
+              img={"border cardimage"}
+            />
           </div>
         </div>
       </div>

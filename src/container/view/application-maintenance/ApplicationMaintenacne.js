@@ -17,28 +17,35 @@ import Digitalize from "./section/Digitalize";
 import Registration from "./section/Registration";
 import WelcomeBlock from "../../../componects/welcomeBlock/WelcomeBlock";
 import { Banner } from "../../../assets";
+import CustomButton from "../../../componects/button/Button";
 
 const ApplicationMaintenance = () => {
   return (
     <>
-       <WelcomeBlock bgImage={Banner} title="APPLICATION MAINTENANCE AND SUPPORT" desc="Top class application maintenance and support services for error-free high-performing applications"  btn="schedule btn"/>
+      <WelcomeBlock
+        bgImage={Banner}
+        title="APPLICATION MAINTENANCE AND SUPPORT"
+        desc="Top class application maintenance and support services for error-free high-performing applications"
+         btn='Schedule a call'
+ 
+      />
+     
       <OctagonShape />
       <ToolTechnology />
       <Application />
-      <Activities/>
-      <TypeOfApps/>
-      <SoftwareUpdate/>\
-      <Fascinat/>
-      <Diverse/>
-      <Business/>
-      <Technology/>
-      <Frequently/>
-      <FullStackDeveloper/>
-      <Appreciation/>
-      <SweatCoin/>
-      <Digitalize/>
-      <Registration/>
-      
+      <Activities />
+      <TypeOfApps />
+      <SoftwareUpdate />
+      <Fascinat />
+      <Diverse />
+      <Business />
+      <Technology />
+      <Frequently />
+      <FullStackDeveloper />
+      <Appreciation />
+      <SweatCoin />
+      <Digitalize />
+      <Registration />
     </>
   );
 };

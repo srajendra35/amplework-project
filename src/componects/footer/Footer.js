@@ -22,6 +22,7 @@ import {
   Scal,
   Watch,
 } from "../../assets";
+import CustomButton from "../button/Button";
 
 const Footer = () => {
   return (
@@ -50,7 +51,7 @@ const Footer = () => {
                       bespoken requirement.
                       <div className="row mt-5">
                         <div className="d-flex">
-                          <div className=" pe-sm-5  pe-xl-5 pr-xl-3  text-center"> 
+                          <div className=" pe-sm-5  pe-xl-5 pr-xl-3  text-center">
                             <div className="watch">
                               <img className="bgcolor" src={Watch} alt="" />
                             </div>
@@ -71,9 +72,10 @@ const Footer = () => {
                         </div>
                       </div>
                     </Card.Text>
-                    <Button className="btnbgcolor fw-bolder rounded-pill mt-3 mb-3 btn-outline-light px-3">
-                      EXPLORE MORE
-                    </Button>
+                    <CustomButton
+                      title="EXPLORE MORE"
+                      className={"explore-btn"}
+                    />
                   </Card.Body>
                 </Card>
               </div>
@@ -95,7 +97,7 @@ const Footer = () => {
                       We Have been working with startup since our inception and
                       help them scale as they grow.Our Experience can help you
                       refine your business ideas and into the market asap.
-                      <div className="d-flex mt-2"> 
+                      <div className="d-flex mt-4">
                         <div className="pe-sm-5  pe-xl-5 pr-xl-3  text-center">
                           <div className="card2">
                             <img src={Access} alt="" />
@@ -116,9 +118,11 @@ const Footer = () => {
                         </div>
                       </div>
                     </Card.Text>
-                    <Button className="explore fw-bolder rounded-pill mt-4 mb-4 btn-outline-warning px-3">
-                      EXPLORE MORE
-                    </Button>
+                    <CustomButton
+                      title="EXPLORE MORE"
+                      className={"explore-btn2 "}
+                      
+                    />
                   </Card.Body>
                 </Card>
               </div>

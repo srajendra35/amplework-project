@@ -22,24 +22,7 @@
   color: rgb(90, 90, 89);
 
 }
-/* .imgssss{
-    position: absolute;
-    z-index: 2;
-   
-   
-}
-.imageborder::before{
-    content: "";
-    position: absolute;
-    width: 30%;
-    height: 65%;
-    border: 1px solid #032de2;
-     margin-top: 50px; 
-     margin-left: -20px; 
-    border-radius: 20px;
-
-} */
-
+ 
 /* serviceSoftware */
 
 .servicemaintenance{
@@ -231,6 +214,7 @@ rgb(78 189 142);
 
 .defaulttransport {
     display: block;
+    
 }
 .transimageblock {
     width: 100%;
@@ -238,15 +222,21 @@ rgb(78 189 142);
 }
 .departmental-hover-para {
     display: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+   
 }
+ 
+ 
 .departmentalhover:hover .defaulttransport {
     display: none;
 }
 .departmentalhover:hover .departmental-hover-para {
     display: block;
+     margin-top: 4rem;
 }
 .departmentalhover {
-    box-shadow: 1px 1px 10px darkslategrey;
+    box-shadow: 1px 1px 10px rgb(98, 126, 126);
 }
 .departmentalhover:hover {
     background-color: rgb(3, 45, 226);
@@ -258,23 +248,54 @@ rgb(78 189 142);
 
 /* processcombines */
 .processcombines{
+    background-color: 
+    rgb(17 27 81);
      padding-top: 6rem;
      padding-bottom: 6rem;
+   
      
 }
 .process-heading{
     letter-spacing: 1px;
-    color:  rgb(33 37 41);
+    color: white;
     font-weight: 600;
     line-height: 50px;
     padding-bottom: 1rem;
     font-stretch: normal;
     text-align: center;
 }
+.process-bgcolor{
+    background-color: 
+    rgb(17 27 81);
+    width: 22rem;
+    border-top: "none";
+    border-left: 'none';
+    border-radius: 0px;
+    color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+    to bottom, 
+        rgb(204, 0, 255), 
+        rgba(228, 4, 4, 20)
+    ) 1 100%;
+    
+}
+.process-bgcolor:hover{
+    background-color: 
+    rgb(0 92 255);
+    color: #FFF;
+}
+.border-buttom{
+    border-top: 2px solid rgb(204, 0, 255);
+     
+}
+
 .process-para{
+    color: white;
     font-size: 18px;
     letter-spacing: 1px;
-    color: rgb(90, 90, 89);
     text-align: center;
     padding-bottom: 2rem;
 }
@@ -282,15 +303,133 @@ rgb(78 189 142);
     letter-spacing: 1px;
 }
 .we-para{
-    font-size: 16px;
-    letter-spacing: 1px;
-    color: rgb(90, 90, 89);
+    font-size: 18px;
+    color: white;
     letter-spacing: 1px;
 }
 .oneprocess{
-    justify-content: center;
-    align-items: center;    
-    color: #fff;
+     font-size: 50px;
+   font-weight: 900;
+    color: 
+    rgb(24 36 97);
     -webkit-text-stroke: 1px #1d73f8;
 }
- 
+.process-bgcolor:hover .process{
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+/* Dreamit */
+.dreamit{
+    background-color:rgb(255 255 255);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.dream-heading{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.dream-para{
+    padding-bottom: 2rem;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+   justify-content: center;
+   
+}
+.dream-card{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-auto-rows: 480px;
+    grid-gap: 30px; 
+    margin: auto 0;
+   
+   
+}
+.dream-main-card{
+    padding: 0px 0px 0px 30px;
+    /* border: none; */
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+    box-shadow: 2px 2px 5px 5px rgb(242, 235, 235);
+    border-bottom: 3px solid#1d73f8;
+}
+.dream{
+    margin-top: 20px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    
+}
+.dreampara{
+    font-size: 17px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+/* technicalexperties */
+
+.technicalexperties{
+    background-color: 
+    rgb(255, 255, 255);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+
+}
+.tech-heading{
+    letter-spacing: 1px;
+}
+.button-tech{
+    background:none;
+    border: 1px solid rgb(187, 182, 182);
+    padding: 0px 10px 5px 20px;
+    font-weight: 600;
+}
+/* .Roleour */
+.roleour{
+    background-color: 
+    rgb(251, 247, 251);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.role-heading{
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.role-para{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+  
+    
+}
+.role-card{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    grid-auto-rows: 300px;
+    grid-gap: 30px; 
+    margin: auto 0;
+}
+.role-card-heading{
+    font-size: 22px;
+}
+.app{
+    padding: 30px 0px 10px 40px ;
+    
+}
+.role-card-1{
+    background-color: 
+    rgb(245 247 251);
+    border: none;
+}
+.role-card-2{
+    background-color:rgb(3 45 226);
+    color: #FFF;
+    border-radius: 0px;
+}

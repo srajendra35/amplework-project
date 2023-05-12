@@ -1,14 +1,13 @@
 import React from "react";
-import Navbar from "../componects/navbar/Navbar";
 import AppContent from "../componects/AppContent";
 import Footer from "../componects/footer/Footer";
- 
+import Navbars from "../componects/navbar/Navbar";
+
 const DefaultLayout = () => {
   return (
     <>
       <div>
-        <Navbar />
-
+        <Navbars />
         <div>
           <AppContent />
         </div>

@@ -1,6 +1,7 @@
 import React from "react";
-import '../ApplicationMaintenance.css'
+import "../ApplicationMaintenance.css";
 import { Card } from "react-bootstrap";
+import CustomCard from "../../../../componects/customCard/CustomCard";
 const Business = () => {
   return (
     <>
@@ -12,55 +13,45 @@ const Business = () => {
             </h4>
             <p className="busipara">
               We don’t compromise on the quality aspects thus it makes us the
-              leading application development maintenance and support service
+              leading application development maintenance and<br/> support service
               provider.
-              <br /> We resolve even the most severe incidents in less than 8
+               We resolve even the most severe incidents in less than 8
               hours.
             </p>
           </div>
-          <div className="row mt-5">
-            <div className="d-flex flex-wrap  mb-5 justify-content-center">
-              <div className="mx-5">
-                <Card>
-                  <Card.Body>
-                    <Card.Title className="titlecolor fw-bolder text-center">10-15 Mins</Card.Title>
-                    <Card.Text className="title text-center">
-                      Minimum incident Response Time
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </div>
-              <div className="mx-5">
-                <Card>
-                  <Card.Body>
-                    <Card.Title className="titlecolor fw-bolder text-center">2-3 Hours</Card.Title>
-                    <Card.Text className="title text-center">
-                      incident Solution Time
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </div>
-              <div className="mx-5">
-                <Card>
-                  <Card.Body>
-                    <Card.Title className="titlecolor fw-bolder text-center">350+</Card.Title>
-                    <Card.Text className="title text-center">
-                      Prowess Team Members
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </div>
-              <div className="mx-5">
-                <Card>
-                  <Card.Body>
-                    <Card.Title className="titlecolor fw-bolder text-center">100%</Card.Title>
-                    <Card.Text className="title text-center">
-                      With Quality Optimization
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </div>
-            </div>
+          <div className="businesscard">
+            <CustomCard
+              cardclass={"busi-card"}
+              heading={"10-15 Mins"}
+              headingclass={"titlecolor fw-bolder text-center"}
+              para={"Minimum incident Response Time"}
+              paraclass={"title"}
+            />
+             <CustomCard
+              cardclass={"busi-card"}
+              heading={"2-3 Hours"}
+              headingclass={"titlecolor fw-bolder text-center"}
+              para={"incident Solution Time "}
+              paraclass={"title"}
+            />
+               <CustomCard
+              cardclass={"busi-card"}
+              heading={"350+"}
+              headingclass={"titlecolor fw-bolder text-center"}
+              para={"Prowess Team Members "}
+              paraclass={"title"}
+            />
+             <CustomCard
+              cardclass={"busi-card"}
+              heading={"100%"}
+              headingclass={"titlecolor fw-bolder text-center"}
+              para={" With Quality Optimization "}
+              paraclass={"title"}
+            />
+
+ 
+
+          
           </div>
         </div>
       </div>

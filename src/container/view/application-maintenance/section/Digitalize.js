@@ -3,6 +3,7 @@ import '../ApplicationMaintenance.css'
  
 import { Button, Card } from "react-bootstrap";
 import { AiContent, Developer, Mvp } from "../../../../assets";
+import CustomButton from "../../../../componects/button/Button";
 const Digitalize = () => {
   return (
     <>
@@ -37,11 +38,15 @@ const Digitalize = () => {
             </div>
           </div>
           <div className="row">
-            <div className="text-center mb-5">
+          <div className="text-center">
+          <CustomButton title='Read all post' className={'read-all-button'}/>
+
+          </div>
+            {/* <div className="text-center mb-5">
               <Button className="text-center rounded-pill" variant="primary">
                 Read all post
               </Button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

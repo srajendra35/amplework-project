@@ -6,8 +6,9 @@
     border-radius: 15px;
     overflow-clip-margin: content-box;
     overflow: clip;
-    
-    
+}
+.explore-btn{
+
 }
  
 .watch{
@@ -22,10 +23,33 @@
     #1f13f2
     ;
 }
-.btnbgcolor{
+.explore-btn{
     background-color: #1f13f2;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 2rem;
+    letter-spacing: 1px;
+    color: white;
+    padding: 5px 10px 8px 15px;
+    font-weight: 600;
+     border: 1px solid white;
 
 }
+.explore-btn2{
+    background-color: transparent;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 2rem;
+    letter-spacing: 1px;
+    color: 
+    rgb(245 164 3);
+    padding: 5px 10px 8px 15px;
+    font-weight: 600;
+     border: 1px solid 
+     rgb(245 164 3);
+
+}
+
 .containerbgcolor{
     background-color: #080a37;
     min-height: 100vh;

@@ -1,5 +1,5 @@
 import React from "react";
-import '../ApplicationMaintenance.css'
+import "../ApplicationMaintenance.css";
 import Angle from "../../../../assets/Group 13516.png";
 
 import { Card } from "react-bootstrap";
@@ -14,20 +14,14 @@ const Diverse = () => {
                 <img src={Angle} width="10%" alt="" />
               </div>
               <h4 className="heading">
-                Diverse Levels Of Support Offered
-               By Our Prowess Experts
+                Diverse Levels Of Support Offered By Our Prowess Experts
               </h4>
               <p className="offerpara">
                 We offer support for application maintenance at a diverse level
-                of
-               
-                operations to help our clients in accomplishing their specific
-                
-                goals. If you are confused that which level of support service
-              
-                will be beneficial for you then you can connect with us to get
-               
-                valuable insights about operations.
+                of operations to help our clients in accomplishing their
+                specific goals. If you are confused that which level of support
+                service will be beneficial for you then you can connect with us
+                to get valuable insights about operations.
               </p>
 
               <img src={Angle} width="10%" alt="" />

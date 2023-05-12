@@ -1,17 +1,17 @@
 import React from "react";
-import '../ApplicationMaintenance.css'
+import "../ApplicationMaintenance.css";
 import Accordion from "react-bootstrap/Accordion";
 const Frequently = () => {
   return (
     <>
-      <div className="">
+      <div className="frequen-section">
         <div className="frequen container">
-          <div className="row mb-5 mt-5">
-            <h4 className="text-center fw-bolder">
+          <div className="row mb-5">
+            <h2 className="text-center fw-bolder">
               Frequently Asked Questions
-            </h4>
+            </h2>
           </div>
-          <div className="mbspace row">
+          <div className="row">
             <div className="col-sm-6">
               <div>
                 <Accordion className="box">

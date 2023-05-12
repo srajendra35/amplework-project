@@ -1,0 +1,35 @@
+.navbartext{
+    color: white;
+    font-size: 22px;
+    margin-top: 5px;
+    
+}
+.navbartext:hover{
+    color: rgb(245 164 3);
+    
+}
+.nav-link:focus {
+    color: none;
+}
+
+
+.ample-btn{
+    font-weight: bold;
+    color: rgb(245 164 3);
+    border: 2px solid rgb(245 164 3);
+    border-radius: 22px;
+    background-color: transparent;
+ 
+}
+.ample-btn:hover{
+    background-color: #fff;
+    color: rgb(245 164 3);
+    
+}
+.toggle{
+    color: rgb(233, 215, 14);
+    background-color: yellow;
+}
+ 
+ 
+ 

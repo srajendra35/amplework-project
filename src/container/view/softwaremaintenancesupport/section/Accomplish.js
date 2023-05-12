@@ -1,7 +1,14 @@
 import React from "react";
 import "../Softwaremaintenancesupport.css";
 import { Card } from "react-bootstrap";
-import { Carbg, Code, Customer, Growth, Mobiletech, Surface } from "../../../../assets";
+import {
+  Carbg,
+  Code,
+  Customer,
+  Growth,
+  Mobiletech,
+  Surface,
+} from "../../../../assets";
 const Accomplish = () => {
   return (
     <>
@@ -18,15 +25,21 @@ const Accomplish = () => {
         </div>
         <div className="row">
           <div className="d-flex flex-wrap justify-content-center">
-            <Card style={{ width: "25rem",height:"18rem" }} className="departmentalhover m-2">
+            <Card
+              style={{ width: "25rem", height: "18rem" }}
+              className="departmentalhover m-2"
+            >
               <Card.Body className="text-center">
                 <div className="defaulttransport">
                   <div className="transimageblock">
                     <img src={Code} alt="" className="img-fluid p-2" />
                   </div>
                 </div>
-                <h5 className="py-2"> Secure & Stable Running of Apps</h5>
-                <div className="departmental-hover-para">
+                <div className="stableheading">
+                  <h5 className="stable"> Secure & Stable Running of Apps</h5>
+                </div>
+
+                <div className="departmental-hover-para fs-5">
                   <p>
                     We ensure the secure and stable operations of applications
                     that are essential to prevent data breaches & maintain user
@@ -35,17 +48,18 @@ const Accomplish = () => {
                 </div>
               </Card.Body>
             </Card>
-            <Card style={{ width: "25rem",height:"18rem" }} className="departmentalhover m-2">
+            <Card
+              style={{ width: "25rem", height: "18rem" }}
+              className="departmentalhover m-2"
+            >
               <Card.Body className="text-center">
                 <div className="defaulttransport">
                   <div className="transimageblock">
                     <img src={Mobiletech} alt="" className="img-fluid p-2" />
                   </div>
                 </div>
-                <h5 className="py-2">
-                  Eliminate Issues of Application Downtime
-                </h5>
-                <div className="departmental-hover-para">
+                <h5 className="">Eliminate Issues of Application Downtime</h5>
+                <div className="departmental-hover-para ">
                   <p>
                     Downtime issues enhance the user attrition rate - so we
                     incorporate specific solutions to eliminate downtime issues.
@@ -54,7 +68,7 @@ const Accomplish = () => {
               </Card.Body>
             </Card>
             <Card
-              style={{ width: "25rem", height:"18rem" }}
+              style={{ width: "25rem", height: "18rem" }}
               className="departmentalhover m-2"
             >
               <Card.Body className="text-center">
@@ -63,7 +77,7 @@ const Accomplish = () => {
                     <img src={Growth} alt="" className="img-fluid p-2" />
                   </div>
                 </div>
-                <h5 className="py-2">High-Performance Applications</h5>
+                <h5 className="">High-Performance Applications</h5>
                 <div className="departmental-hover-para">
                   <p>
                     We fix bugs & vulnerabilities by upgrading specific key
@@ -77,14 +91,17 @@ const Accomplish = () => {
         </div>
         <div className="row">
           <div className="d-flex flex-wrap justify-content-center">
-            <Card style={{ width: "25rem",height:"18rem" }} className="departmentalhover m-2">
+            <Card
+              style={{ width: "25rem", height: "18rem" }}
+              className="departmentalhover m-2"
+            >
               <Card.Body className="text-center">
                 <div className="defaulttransport">
                   <div className="transimageblock">
                     <img src={Surface} alt="" className="img-fluid p-2" />
                   </div>
                 </div>
-                <h5 className="py-2">Feature Customization</h5>
+                <h5 className="">Feature Customization</h5>
                 <div className="departmental-hover-para">
                   <p>
                     Software maintenance helps with feature customization by
@@ -93,14 +110,17 @@ const Accomplish = () => {
                 </div>
               </Card.Body>
             </Card>
-            <Card style={{ width: "25rem",height:"18rem" }} className="departmentalhover m-2">
+            <Card
+              style={{ width: "25rem", height: "18rem" }}
+              className="departmentalhover m-2"
+            >
               <Card.Body className="text-center">
                 <div className="defaulttransport">
                   <div className="transimageblock">
                     <img src={Customer} alt="" className="img-fluid p-2" />
                   </div>
                 </div>
-                <h5 className="py-2">Improved User Experience</h5>
+                <h5 className="">Improved User Experience</h5>
                 <div className="departmental-hover-para">
                   <p>
                     Consistent maintenance ensures to improves the user
@@ -120,7 +140,7 @@ const Accomplish = () => {
                     <img src={Carbg} alt="" className="img-fluid p-2" />
                   </div>
                 </div>
-                <h5 className="py-2">Better Compatibility</h5>
+                <h5 className="">Better Compatibility</h5>
                 <div className="departmental-hover-para">
                   <p>
                     Improve compatibility by ensuring the application for

@@ -1,8 +1,8 @@
 import React from "react";
-import '../ApplicationMaintenance.css'
+import "../ApplicationMaintenance.css";
 import { AiFillAndroid } from "react-icons/ai";
 import { BsApple } from "react-icons/bs";
- 
+
 import { Carousel } from "react-bootstrap";
 import { Mobile } from "../../../../assets";
 const SweatCoin = () => {
@@ -79,7 +79,7 @@ const SweatCoin = () => {
             </div>
           </Carousel.Item>
           <Carousel.Item>
-          <div className="container">
+            <div className="container">
               <div className="row">
                 <div className="newpara text-dark col-sm-12 col-lg-6">
                   <h3 className="text-white  mt-5 mb-5">Sweatcoin</h3>
