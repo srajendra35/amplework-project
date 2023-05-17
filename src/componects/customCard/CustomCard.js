@@ -16,13 +16,18 @@ const CustomCard = (props) => {
     para2,
     para3,
     para4,
+    imgfirst,
+    icons,
   } = props;
   return (
     <Card className={`${cardclass}`}>
       <Card.Body className={`${cardbody}`}>
-        <div className={`${imgclass}`}>
-          <img src={image} className={`${img}`} alt="" />
-          {icon}
+        <div  className={`${imgfirst}`}>
+          <div className={`${imgclass}`}>
+            <img src={image} className={`${img}`} alt="" />
+            {icon  }
+            {/* className={`${icons}`} */}
+          </div>
         </div>
         <div>
           <h5 className={`${headingclass}`}>{heading}</h5>

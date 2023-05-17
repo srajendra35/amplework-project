@@ -1,5 +1,5 @@
 import React from "react";
-import '../ApplicationMaintenance.css'
+import "../ApplicationMaintenance.css";
 import { AiOutlineBug } from "react-icons/ai";
 import { MdSettingsRemote } from "react-icons/md";
 import { SiTestinglibrary } from "react-icons/si";

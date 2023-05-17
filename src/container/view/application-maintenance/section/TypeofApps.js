@@ -24,7 +24,7 @@ const TypeOfApps = () => {
             {TypeofApp.map((item) => {
               return (
                 <CustomCard
-                  icon={item.icon}
+                  image={item.image}
                   cardclass="typecard"
                   heading={item.heading}
                   cardbody="typetext"

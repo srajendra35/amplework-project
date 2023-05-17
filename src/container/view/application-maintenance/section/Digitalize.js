@@ -1,9 +1,12 @@
 import React from "react";
-import '../ApplicationMaintenance.css'
- 
+import "../ApplicationMaintenance.css";
+
 import { Button, Card } from "react-bootstrap";
 import { AiContent, Developer, Mvp } from "../../../../assets";
 import CustomButton from "../../../../componects/button/Button";
+import { DigitalizeMock } from "../../../../mockup/DigitalizeMock";
+import CustomCard from "../../../../componects/customCard/CustomCard";
+
 const Digitalize = () => {
   return (
     <>
@@ -15,38 +18,26 @@ const Digitalize = () => {
             </h4>
           </div>
           <div className="row mb-5">
-            <div className="col-sm-12 col-md-6 col-lg-4">
-              <Card>
-                <img src={Mvp} alt="" />
-              </Card>
-              <p className="mt-1">
-                Chatbots in Healthcare – Advantages, Disadvantages Applications
-                & their Future
-              </p>
-            </div>
-            <div className="col-sm-12 col-md-6 col-lg-4">
-              <Card>
-                <img src={Developer} alt="" />
-              </Card>
-              <p className="mt-1">Foldable Smartphone App Development – 5 Dos</p>
-            </div>
-            <div className="col-sm-12 col-md-6 col-lg-4">
-              <Card>
-                <img src={AiContent} alt="" />
-              </Card>
-              <p className="mt-1">Mobile DevOps – Advantages & Challenges</p>
+            <div className="d-flex">
+              {DigitalizeMock.map((item) => (
+                <CustomCard
+                  cardclass="digitalizecard col-lg-4"
+                  image={item.image}
+                  img="img-fluid"
+                  para={item.para}
+                  paraclass="mt-1"
+                />
+              ))}
             </div>
           </div>
-          <div className="row">
-          <div className="text-center">
-          <CustomButton title='Read all post' className={'read-all-button'}/>
 
-          </div>
-            {/* <div className="text-center mb-5">
-              <Button className="text-center rounded-pill" variant="primary">
-                Read all post
-              </Button>
-            </div> */}
+          <div className="row">
+            <div className="text-center">
+              <CustomButton
+                title="Read all post"
+                className={"read-all-button"}
+              />
+            </div>
           </div>
         </div>
       </div>

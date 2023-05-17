@@ -18,6 +18,8 @@ import {
   Wandelwall,
   soflate,
 } from "../../../../assets";
+import CustomCard from "../../../../componects/customCard/CustomCard";
+import { BrandCollaboratedMock } from "../../../../mockup/BrandcollAbratedMock";
 
 const BrandCollaborated = () => {
   return (
@@ -33,89 +35,13 @@ const BrandCollaborated = () => {
         </div>
         <div className="row">
           <div className="d-flex flex-wrap justify-content-center">
-            <Card className="brandcard">
-              <div>
-                <img src={Alpha} alt="" />
-              </div>
-            </Card>
-            <Card className="brandcard">
-              <div>
-                <img src={soflate} alt="" />
-              </div>
-            </Card>
-            <Card className="brandcard">
-              <div>
-                <img src={School} alt="" />
-              </div>
-            </Card>
-            <Card className="brandcard ">
-              <div>
-                <img src={Mapl} alt="" />
-              </div>
-            </Card>
-            <Card className="brandcardlayer">
-              <div>
-                <img src={Layer} alt="" />
-              </div>
-            </Card>
-          </div>
-        </div>
-        <div className="row">
-          <div className="d-flex flex-wrap justify-content-center">
-            <Card className="brandcard">
-              <div>
-                <img src={Vista} alt="" />
-              </div>
-            </Card>
-            <Card className="brandcard">
-              <div>
-                <img src={Wandelwall} alt="" />
-              </div>
-            </Card>
-            <Card className="brandcard">
-              <div>
-                <img src={Removale} alt="" />
-              </div>
-            </Card>
-            <Card className="brandcard ">
-              <div>
-                <img src={Cms} alt="" />
-              </div>
-            </Card>
-            <Card className="brandcardmotil">
-              <div>
-                <img src={Group13} alt="" />
-              </div>
-            </Card>
-          </div>
-        </div>
-        <div className="row">
-          <div className="d-flex flex-wrap justify-content-center">
-            <Card className="brandcard1">
-              <div>
-                <img src={Guard} alt="" />
-              </div>
-            </Card>
-            <Card className="brandcard1">
-              <div>
-                <img src={Sweat} alt="" />
-              </div>
-            </Card>
-            <Card className="brandcard1">
-              <div>
-                <img src={Talk} alt="" />
-              </div>
-            </Card>
-            <Card className="brandcard1 ">
-              <div>
-                <img src={Rega} alt="" />
-              </div>
-            </Card>
-            <Card className="brandcard2">
-              <div>
-                <img src={Motil} alt="" />
-              </div>
-            </Card>
+            {BrandCollaboratedMock.map((item) => (
+              <CustomCard
+                cardclass="brandcard"
+                image={item.image}
+                imgclass="brandcoll mt-5"
+              />
+            ))}
           </div>
         </div>
       </div>

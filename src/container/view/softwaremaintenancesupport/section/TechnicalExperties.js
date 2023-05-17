@@ -10,7 +10,7 @@ const TechnicalExperties = () => {
         <div className="row">
           <div className="col-lg-4">
             <div className="">
-              <img src={Person} className="img-fluid" alt=""/>
+              <img src={Person} className="img-fluid" alt="" />
             </div>
           </div>
 
@@ -23,7 +23,9 @@ const TechnicalExperties = () => {
             {Technology.map((item) => {
               return (
                 <div className="row">
-                  <div className="text-warning col-lg-2 fs-5 p-2">{item.heading}</div>
+                  <div className="text-warning col-lg-2 fs-5 p-2">
+                    {item.heading}
+                  </div>
                   <div className=" col-lg-10 p-2">
                     {item?.btn?.map((items) => (
                       <CustomButton

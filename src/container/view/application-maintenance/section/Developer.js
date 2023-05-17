@@ -4,6 +4,7 @@ import { Button, Card } from "react-bootstrap";
 import { BsArrowUpRight } from "react-icons/bs";
 import { Boss, Raj, Sahib, Sir } from "../../../../assets";
 import CustomCard from "../../../../componects/customCard/CustomCard";
+import { TrustedMock } from "../../../../mockup/TrustedMock";
 
 const FullStackDeveloper = () => {
   return (
@@ -48,26 +49,13 @@ const FullStackDeveloper = () => {
             </p>
           </div>
           <div className="developer-card text-center">
-            <CustomCard
-              cardclass={"border-0"}
-              image={Boss}
-              img={"border cardimage"}
-            />
-            <CustomCard
-              cardclass={"border-0"}
-              image={Sir}
-              img={"border cardimage"}
-            />
-            <CustomCard
-              cardclass={"border-0"}
-              image={Sahib}
-              img={"border cardimage"}
-            />
-            <CustomCard
-              cardclass={"border-0"}
-              image={Raj}
-              img={"border cardimage"}
-            />
+            {TrustedMock.map((item) => (
+              <CustomCard
+                cardclass={"border-0"}
+                image={item.image}
+                img={"border cardimage"}
+              />
+            ))}
           </div>
         </div>
       </div>

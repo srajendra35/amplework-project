@@ -158,16 +158,16 @@ const EnterpriseWebDevelopment = () => {
         <TechnologyStack />
       </section>
       <section className="benefitenterprise">
-        <BeneifitsEnterprise/>
+        <BeneifitsEnterprise />
       </section>
       <section className="selectamplework">
-        <SelectAmplework/>
+        <SelectAmplework />
       </section>
-     <FullStackDeveloper/>
-     <Appreciation/>
-     <SweatCoin/>
-     <Digitalize/>
-     <Registration/>
+      <FullStackDeveloper />
+      <Appreciation />
+      <SweatCoin />
+      <Digitalize />
+      <Registration />
     </>
   );
 };

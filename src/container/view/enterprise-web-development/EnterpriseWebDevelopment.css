@@ -215,6 +215,15 @@ li{
     padding-top: 6rem;
     padding-bottom: 6rem;
 }
+.tech-stack{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: 200px;
+    grid-gap: 30px; 
+    margin: auto 0;
+
+}
 .tech{
     color: 
     rgb(33 37 41);
@@ -246,7 +255,10 @@ li{
 .technologys{
     background-color: rgb(234 243 254);
     padding: 2px 20px ;
+     
+   
 }
+ 
 .git{
     background-color: #fff;
     border-radius: 20px;
@@ -285,10 +297,79 @@ li{
     margin-top: 15px;
     text-align: center;
 }
+.img-higherbenifit{
+    background-color: red;
+    margin-top: 10px;
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+}
+ .img-higherbenifit1{
+    background-color: 
+    rgb(158 109 175);
+    margin-top: 10px;
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+ 
+}
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+    .img-higherbenifit{
+       width: 400px; 
+    }
+    .img-higherbenifit1{
+        width: 400px;
+       
+     }
+     .img-higherbenifit2{
+        width: 400px;
+     }
+       
+  }
+  
+.img-higherbenifit2{
+    background-color: 
+rgb(247 164 87);
+    margin-top: 10px;
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+}
+.img-higherbenifit3{
+ 
+    background-color: 
+    rgb(244 131 98);
+    margin-top: 10px;
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+}
+.img-higherbenifit4{
+    background-color:rgb(78 189 142);
+    margin-top: 10px;
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+}
+.img-higherbenifit5{
+    background-color: 
+    rgb(89 148 245);
+    margin-top: 10px;
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.enhance-reverse{
+    flex-direction: row-reverse;
+}
+ 
+ 
 .higher{
     color: 
     rgb(33 37 41);
     text-align: end;
+    font-size: 30px;
     
 }
  
@@ -299,17 +380,13 @@ li{
     justify-content: center;
     align-items: center;
     border-radius: 10px;
- 
 
-    
 }
 .scable{
     letter-spacing: 1px;    
-    font-size: 17px;
+    font-size: 22px;
     color: rgb(68 68 68);
     margin-bottom: 3rem;
-    margin-top: 1rem;
-    margin-bottom: 5rem;
     text-align: end;
   
    
@@ -317,16 +394,14 @@ li{
 .enhance{
     color: 
     rgb(33 37 41);
-    
+    font-size: 30px;
     
 }
 .well{
     letter-spacing: 1px;    
-    font-size: 17px;
+    font-size: 22px;
     color: rgb(68 68 68);
-   
-    margin-top: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     
   
 }

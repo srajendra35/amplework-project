@@ -274,6 +274,14 @@ rgb(0 152 249);
     padding-top: 6rem;
     padding-bottom: 6rem;
 }
+.brandcoll{
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+
+}
+ 
+ 
 .brandheading{
     text-align: center;
     font-weight: 600;
@@ -448,6 +456,15 @@ rgb(0 152 249);
     padding-bottom: 6rem;
     
 }
+
+.departmentBrand-1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: 200px;
+    grid-gap: 30px; 
+    margin: auto 0;
+}
 .departmentalheading{
     text-align: center;
     font-weight: 600;
@@ -466,10 +483,7 @@ rgb(0 152 249);
 .defaulttransport {
     display: block;
 }
-.transimageblock {
-    width: 100%;
-    height: 120px;
-}
+ 
 .departmental-hover-para {
     display: none;
 }

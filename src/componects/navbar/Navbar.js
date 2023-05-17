@@ -49,8 +49,18 @@ const Navbars = () => {
               >
                 Case Studies
               </Nav.Link>
-              <Nav.Link className="navbartext ">Blog</Nav.Link>
-              <Nav.Link className="navbartext me-5">Contact Us</Nav.Link>
+              <Nav.Link
+                className="navbartext"
+                onClick={() => Neviagte("/")}
+              >
+                Blog
+              </Nav.Link>
+              <Nav.Link
+                className="navbartext me-5"
+                onClick={() => Neviagte("services")}
+              >
+                Contact Us
+              </Nav.Link>
               <Button className="ample-btn p-3"> INQUIRE NOW</Button>
             </Nav>
           </Navbar.Collapse>
@@ -60,32 +70,3 @@ const Navbars = () => {
   );
 };
 export default Navbars;
-
-// <Navbar   bg="transparent"
-// expand="lg"
-// style={{ position: "absolute" }}
-// className="w-100">
-
-//     <Navbar.Brand href="#Home">
-//     <img src={Ample} width={"250px"} alt="" />
-//     </Navbar.Brand>
-//     <Navbar.Toggle aria-controls="basic-navbar-nav" />
-//     <Navbar.Collapse id="basic-navbar-nav">
-//       <Nav className="me-auto">
-//         <Nav.Link href="#home">Home</Nav.Link>
-//         <Nav.Link href="#link">Link</Nav.Link>
-//         <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-//           <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-//           <NavDropdown.Item href="#action/3.2">
-//             Another action
-//           </NavDropdown.Item>
-//           <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-//           <NavDropdown.Divider />
-//           <NavDropdown.Item href="#action/3.4">
-//             Separated link
-//           </NavDropdown.Item>
-//         </NavDropdown>
-//       </Nav>
-//     </Navbar.Collapse>
-
-// </Navbar>

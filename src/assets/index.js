@@ -142,6 +142,19 @@ import Softwareupdatee  from './softwareupdate.png'
 import MointerUpdate from './mointerupdate.png'
 import Devops from './devops.png'
 import Outline from './OUTLINE.png'
+import Type1 from './type1.png'
+import Type2 from './type2.png'
+import Type3 from './type3.png'
+import Type4 from './type4.png'
+import Type5 from './type5.png'
+import Type6 from './TYPE6.png'
+import Type7 from './type7.png'
+import Type8 from './type8.png'
+import Search from './search1.png'
+import G15 from './g15.png'
+import Bands from './brand(1).png'
+import Twomen from  './twomen.png'
+import Response from './response.png'
 export {
   Ample,
   Banner,
@@ -287,5 +300,18 @@ export {
   MointerUpdate,
   Devops,
   Outline,
+  Type1,
+  Type2,
+  Type3,
+  Type4,
+  Type5,
+  Type6,
+  Type7,
+  Type8,
+  Search,
+  G15,
+  Bands,
+  Twomen,
+  Response,
 
 };

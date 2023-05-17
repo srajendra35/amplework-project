@@ -1,5 +1,4 @@
 import React from "react";
-import { Master } from "../../../../assets";
 import { FiCheckCircle } from "react-icons/fi";
 import { Button } from "react-bootstrap";
 
