@@ -1,6 +1,7 @@
 import React from "react";
 import "../ApplicationMaintenance.css";
 import Accordion from "react-bootstrap/Accordion";
+import { AccordionMock } from "../../../../mockup/AccordionMock";
 const Frequently = () => {
   return (
     <>
@@ -11,133 +12,22 @@ const Frequently = () => {
               Frequently Asked Questions
             </h2>
           </div>
+
           <div className="row">
-            <div className="col-sm-6">
-              <div>
-                <Accordion className="box">
+            {AccordionMock.map((item) => (
+              <div className="col-lg-6">
+                <Accordion className={`${item.Accordion} mt-4`}>
                   <Accordion.Item eventKey="1">
                     <Accordion.Header>
-                      <h5>How skilled are your dedicated developers?</h5>
+                      <h5>{item.heading}</h5>
                     </Accordion.Header>
                     <Accordion.Body className="accod">
-                      At Amplework, we feature a team of highly skilled and
-                      experienced dedicated developers having several years of
-                      expertise in the field of mobile app development
-                      solutions.
+                      {item.para}
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
               </div>
-              <div className="mt-5">
-                <Accordion className="box">
-                  <Accordion.Item eventKey="1">
-                    <Accordion.Header>
-                      <h5>How skilled are your dedicated developers?</h5>
-                    </Accordion.Header>
-                    <Accordion.Body className="accod">
-                      At Amplework, we feature a team of highly skilled and
-                      experienced dedicated developers having several years of
-                      expertise in the field of mobile app development
-                      solutions.
-                    </Accordion.Body>
-                  </Accordion.Item>
-                </Accordion>
-              </div>
-              <div className="mt-5">
-                <Accordion className="box">
-                  <Accordion.Item eventKey="1">
-                    <Accordion.Header>
-                      <h5>How skilled are your dedicated developers?</h5>
-                    </Accordion.Header>
-                    <Accordion.Body className="accod">
-                      At Amplework, we feature a team of highly skilled and
-                      experienced dedicated developers having several years of
-                      expertise in the field of mobile app development
-                      solutions.
-                    </Accordion.Body>
-                  </Accordion.Item>
-                </Accordion>
-              </div>
-              <div className="mt-5">
-                <Accordion className="box">
-                  <Accordion.Item eventKey="1">
-                    <Accordion.Header>
-                      <h5>How skilled are your dedicated developers?</h5>
-                    </Accordion.Header>
-                    <Accordion.Body className="accod">
-                      At Amplework, we feature a team of highly skilled and
-                      experienced dedicated developers having several years of
-                      expertise in the field of mobile app development
-                      solutions.
-                    </Accordion.Body>
-                  </Accordion.Item>
-                </Accordion>
-              </div>
-            </div>
-            <div className="col-sm-6">
-              <div>
-                <div>
-                  <Accordion className="box">
-                    <Accordion.Item eventKey="1">
-                      <Accordion.Header>
-                        <h5>How skilled are your dedicated developers?</h5>
-                      </Accordion.Header>
-                      <Accordion.Body className="accod">
-                        At Amplework, we feature a team of highly skilled and
-                        experienced dedicated developers having several years of
-                        expertise in the field of mobile app development
-                        solutions.
-                      </Accordion.Body>
-                    </Accordion.Item>
-                  </Accordion>
-                </div>
-                <div className="mt-5">
-                  <Accordion className="box">
-                    <Accordion.Item eventKey="1">
-                      <Accordion.Header>
-                        <h5>How skilled are your dedicated developers?</h5>
-                      </Accordion.Header>
-                      <Accordion.Body className="accod">
-                        At Amplework, we feature a team of highly skilled and
-                        experienced dedicated developers having several years of
-                        expertise in the field of mobile app development
-                        solutions.
-                      </Accordion.Body>
-                    </Accordion.Item>
-                  </Accordion>
-                </div>
-                <div className="mt-5">
-                  <Accordion className="box">
-                    <Accordion.Item eventKey="1">
-                      <Accordion.Header>
-                        <h5>How skilled are your dedicated developers?</h5>
-                      </Accordion.Header>
-                      <Accordion.Body className="accod">
-                        At Amplework, we feature a team of highly skilled and
-                        experienced dedicated developers having several years of
-                        expertise in the field of mobile app development
-                        solutions.
-                      </Accordion.Body>
-                    </Accordion.Item>
-                  </Accordion>
-                </div>
-                <div className="mt-5">
-                  <Accordion className="box">
-                    <Accordion.Item eventKey="1">
-                      <Accordion.Header>
-                        <h5>How skilled are your dedicated developers?</h5>
-                      </Accordion.Header>
-                      <Accordion.Body className="accod">
-                        At Amplework, we feature a team of highly skilled and
-                        experienced dedicated developers having several years of
-                        expertise in the field of mobile app development
-                        solutions.
-                      </Accordion.Body>
-                    </Accordion.Item>
-                  </Accordion>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>

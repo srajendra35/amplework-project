@@ -3,6 +3,7 @@ import "../ApplicationMaintenance.css";
 import SoftwareUpdateCard from "../../../../componects/SoftwareUpdatecard";
 import { TbTargetArrow } from "react-icons/tb";
 import { FiTarget } from "react-icons/fi";
+import { SoftwareUpdateMock } from "../../../../mockup/SoftwareupadteMockup";
 const SoftwareUpdate = () => {
   return (
     <>
@@ -21,30 +22,33 @@ const SoftwareUpdate = () => {
           </div>
           <div className="row">
             <div className="bluecard  d-flex flex-wrap justify-content-center">
-              <div className="fixed col-sm-12 col-md-6 col-lg-4">
-                <SoftwareUpdateCard
-                  icon={<TbTargetArrow  />}
-                  title="Fixed"
-                  para="Our in-house support matrix and best-in-industry prices will ."
-                   
-                />
+                {SoftwareUpdateMock.map((item) => (
+              <div className="fixed col-lg-4">
+                  <SoftwareUpdateCard
+                    icon1={item.icon1}
+                    icon2={item.icon2}
+                    title={item.title}
+                    para={item.para}
+                    ample={item.ample}
+                  />
               </div>
-              <div className="fixed col-sm-12 col-md-6 col-lg-4">
+                ))}
+              {/* <div className="fixed col-sm-12 col-md-6 col-lg-4">
                 <SoftwareUpdateCard
-                  icon={<FiTarget   />}
+                  icon={<FiTarget />}
                   title="Issue"
                   para="Slow and glitch software updates with no-real."
                   ample="Amplework’s Solution"
                 />
-              </div>
-              <div className="fixed col-sm-12  col-md-6 col-lg-4">
+              </div> */}
+              {/* <div className="fixed col-sm-12  col-md-6 col-lg-4">
                 <SoftwareUpdateCard
-                  icon={<FiTarget  />}
+                  icon={<FiTarget />}
                   title="Issue"
                   para="Need profound resources for program visibility?"
                   ample="Amplework’s Solution"
                 />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

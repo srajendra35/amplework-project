@@ -3,7 +3,7 @@ import "../ApplicationMaintenance.css";
 import { AiOutlineUser } from "react-icons/ai";
 import { HiOutlineMail } from "react-icons/hi";
 import { HiOutlinePhoneMissedCall } from "react-icons/hi";
-import { Button, Card, Col, Form, InputGroup, Row } from "react-bootstrap";
+import { Card, Col, Form, InputGroup, Row } from "react-bootstrap";
 import { AiOutlineSkype } from "react-icons/ai";
 import { BsCurrencyDollar } from "react-icons/bs";
 import { BiMessageDetail } from "react-icons/bi";

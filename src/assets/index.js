@@ -155,6 +155,7 @@ import G15 from './g15.png'
 import Bands from './brand(1).png'
 import Twomen from  './twomen.png'
 import Response from './response.png'
+import Bgbanner from './bgbanner.png'
 export {
   Ample,
   Banner,
@@ -313,5 +314,6 @@ export {
   Bands,
   Twomen,
   Response,
+  Bgbanner,
 
 };

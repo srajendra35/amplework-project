@@ -2,7 +2,6 @@ import React from "react";
 import "../ApplicationMaintenance.css";
 import { Button, Card } from "react-bootstrap";
 import { BsArrowUpRight } from "react-icons/bs";
-import { Boss, Raj, Sahib, Sir } from "../../../../assets";
 import CustomCard from "../../../../componects/customCard/CustomCard";
 import { TrustedMock } from "../../../../mockup/TrustedMock";
 

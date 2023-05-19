@@ -17,16 +17,15 @@ const CustomCard = (props) => {
     para3,
     para4,
     imgfirst,
-    icons,
+    li,
   } = props;
   return (
     <Card className={`${cardclass}`}>
       <Card.Body className={`${cardbody}`}>
-        <div  className={`${imgfirst}`}>
+        <div className={`${imgfirst}`}>
           <div className={`${imgclass}`}>
             <img src={image} className={`${img}`} alt="" />
-            {icon  }
-            {/* className={`${icons}`} */}
+            {icon}
           </div>
         </div>
         <div>
@@ -39,6 +38,9 @@ const CustomCard = (props) => {
             <p>{para4}</p>
           </div>
         </div>
+        <ul>
+          <li>{li}</li>
+        </ul>
       </Card.Body>
     </Card>
   );
