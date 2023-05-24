@@ -22,8 +22,8 @@ const SoftwareUpdate = () => {
           </div>
           <div className="row">
             <div className="bluecard  d-flex flex-wrap justify-content-center">
-                {SoftwareUpdateMock.map((item) => (
-              <div className="fixed col-lg-4">
+              {SoftwareUpdateMock.map((item) => (
+                <div className="fixed col-lg-4">
                   <SoftwareUpdateCard
                     icon1={item.icon1}
                     icon2={item.icon2}
@@ -31,24 +31,8 @@ const SoftwareUpdate = () => {
                     para={item.para}
                     ample={item.ample}
                   />
-              </div>
-                ))}
-              {/* <div className="fixed col-sm-12 col-md-6 col-lg-4">
-                <SoftwareUpdateCard
-                  icon={<FiTarget />}
-                  title="Issue"
-                  para="Slow and glitch software updates with no-real."
-                  ample="Amplework’s Solution"
-                />
-              </div> */}
-              {/* <div className="fixed col-sm-12  col-md-6 col-lg-4">
-                <SoftwareUpdateCard
-                  icon={<FiTarget />}
-                  title="Issue"
-                  para="Need profound resources for program visibility?"
-                  ample="Amplework’s Solution"
-                />
-              </div> */}
+                </div>
+              ))}
             </div>
           </div>
         </div>

@@ -1,3 +1,4 @@
+ 
 export const AccordionMock = [
   {
     Accordion: "box",
@@ -40,3 +41,5 @@ export const AccordionMock = [
     para: "At Amplework, we feature a team of highly skilled and experienced dedicated developers having sever years of expertise in the field of mobile app development solutions.",
   },
 ];
+
+ 

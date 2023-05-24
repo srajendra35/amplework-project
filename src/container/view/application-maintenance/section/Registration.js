@@ -32,7 +32,7 @@ const Registration = () => {
                   <Form.Group as={Col} md="6" controlId="validationCustom01">
                     <InputGroup>
                       <InputGroup.Text className="bordernone" id="basic-addon1">
-                        <AiOutlineUser className="text-warning" />
+                        <AiOutlineUser className=" mt-1 fs-5 text-warning" />
                       </InputGroup.Text>
 
                       <Form.Control
@@ -47,7 +47,7 @@ const Registration = () => {
                   <Form.Group as={Col} md="6" controlId="validationCustom01">
                     <InputGroup>
                       <InputGroup.Text className="bordernone" id="basic-addon1">
-                        <HiOutlineMail className="mt-2 text-warning" />
+                        <HiOutlineMail className="mt-1 fs-5 text-warning" />
                       </InputGroup.Text>
 
                       <Form.Control
@@ -67,7 +67,7 @@ const Registration = () => {
                   >
                     <InputGroup>
                       <InputGroup.Text className="bordernone" id="basic-addon1">
-                        <HiOutlinePhoneMissedCall className="mt-2 text-warning" />
+                        <HiOutlinePhoneMissedCall className="mt-1 fs-5 text-warning" />
                       </InputGroup.Text>
 
                       <Form.Control
@@ -86,7 +86,7 @@ const Registration = () => {
                   >
                     <InputGroup>
                       <InputGroup.Text className="bordernone" id="basic-addon1">
-                        <AiOutlineAppstore className="mt-2 text-warning" />
+                        <AiOutlineAppstore className="mt-1 fs-5 text-warning" />
                       </InputGroup.Text>
 
                       <Form.Select
@@ -109,7 +109,7 @@ const Registration = () => {
                   >
                     <InputGroup>
                       <InputGroup.Text className="bordernone" id="basic-addon1">
-                        <AiOutlineSkype className="mt-2 text-warning" />
+                        <AiOutlineSkype className="mt-1 fs-5 text-warning" />
                       </InputGroup.Text>
 
                       <Form.Control
@@ -128,7 +128,7 @@ const Registration = () => {
                   >
                     <InputGroup>
                       <InputGroup.Text className="bordernone" id="basic-addon1">
-                        <BsCurrencyDollar className="mt-2 text-warning" />
+                        <BsCurrencyDollar className="mt-1 fs-5 text-warning" />
                       </InputGroup.Text>
 
                       <Form.Select
@@ -153,7 +153,7 @@ const Registration = () => {
                         className="bordermessage"
                         id="basic-addon1"
                       >
-                        <BiMessageDetail className="text-warning" />
+                        <BiMessageDetail className=" fs-5 text-warning" />
                       </InputGroup.Text>
 
                       <Card.Text>MESSAGE</Card.Text>
@@ -196,7 +196,7 @@ const Registration = () => {
                         <img src={Captcha} width={"10%"} alt="" />
                       </div>
                     </div>
-                    <div className="col-sm-5 align-self-center text-lg-end text-md-end">
+                    <div className="col-sm-5 align-self-center text-lg-end text-md-end col-xs-12  text-center">
                       <CustomButton
                         title="Send Your Inquiry"
                         className={"send-your-inquiry"}

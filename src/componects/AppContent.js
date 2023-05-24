@@ -10,7 +10,7 @@ const AppContent = () => {
     <Suspense>
       <Routes>
         {routes.map((route, idx) => {
-          return (
+          return (  
             route.element && (
               <Route
                 key={idx}

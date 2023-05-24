@@ -20,7 +20,7 @@ const SoftwareUpdateCard = (props) => {
             {/* {props.title} */}
           </Card.Title>
           <Card.Text className="soft text-center">{props.para}</Card.Text>
-          <Card.Text className="text-center text-primary">
+          <Card.Text className="text-center">
             {props.ample}
           </Card.Text>
         </Card.Body>

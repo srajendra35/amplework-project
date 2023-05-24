@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
 import "../footer/footer.css";
 import { CardGroup } from "react-bootstrap";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
@@ -23,6 +22,7 @@ import {
   Watch,
 } from "../../assets";
 import CustomButton from "../button/Button";
+import { Footerli } from "../../mockup/Footer";
 
 const Footer = () => {
   return (
@@ -30,10 +30,10 @@ const Footer = () => {
       <div className="containerbgcolor">
         <div className="container">
           <div className="row d-sm-block d-lg-flex py-5">
-            <CardGroup>
+            <CardGroup className="card-group-footer">
               <div className="col-sm-12 col-lg-6">
                 <Card
-                  className="cardbackground p-4"
+                  className="cardbackground p-4 h-100"
                   style={{
                     backgroundImage: `url(${EnterPrise})`,
                     backgroundRepeat: "no-repeat",
@@ -41,32 +41,44 @@ const Footer = () => {
                   }}
                 >
                   <Card.Body>
-                    <Card.Title className="fw-bolder text-white">
+                    <Card.Title className="fw-bolder text-white mb-3">
                       Do you want to hire resources for your project?
                     </Card.Title>
 
-                    <Card.Text className="text-white">
+                    <Card.Text className="we-have-para text-white">
                       we have web and app development teams to serve medern
                       tech-savy client by bidding on the challenges on their
                       bespoken requirement.
                       <div className="row mt-5">
                         <div className="d-flex">
-                          <div className=" pe-sm-5  pe-xl-5 pr-xl-3  text-center">
-                            <div className="watch">
-                              <img className="bgcolor" src={Watch} alt="" />
-                            </div>
+                          <div className="pe-sm-5  pe-xl-5 pr-xl-3 m-1   text-center">
+                            <figure className="watch">
+                              <img
+                                className="bgcolor"
+                                src={Watch}
+                                alt=""
+                              />
+                            </figure>
                             Part Time
                           </div>
-                          <div className="pe-sm-5 pe-xl-5 pr-xl-3   text-center">
-                            <div className="watch">
-                              <img className="bgcolor" src={FullTime} alt="" />
-                            </div>
+                          <div className="pe-sm-5 pe-xl-5 pr-xl-3 m-1    text-center">
+                            <figure className="watch">
+                              <img
+                                className="bgcolor "
+                                src={FullTime}
+                                alt=""
+                              />
+                            </figure>
                             Full-Time
                           </div>
-                          <div className="pe-sm-5 pe-xl-5 pr-xl-3   text-center">
-                            <div className="watch">
-                              <img className="bgcolor" src={Hours} alt="" />
-                            </div>
+                          <div className="pe-sm-5 pe-xl-5 pr-xl-3 m-1  text-center">
+                            <figure className="watch">
+                              <img
+                                className="bgcolor "
+                                src={Hours}
+                                alt=""
+                              />
+                            </figure>
                             Hourly
                           </div>
                         </div>
@@ -79,9 +91,9 @@ const Footer = () => {
                   </Card.Body>
                 </Card>
               </div>
-              <div className="col-sm-12 col-lg-6">
+              <div className="col-sm-12 col-lg-6 ">
                 <Card
-                  className="secondcard p-4"
+                  className="secondcard p-4 h-100"
                   style={{
                     backgroundImage: `url(${Stratup})`,
                     backgroundRepeat: "no-repeat",
@@ -89,28 +101,28 @@ const Footer = () => {
                   }}
                 >
                   <Card.Body>
-                    <Card.Title className="fw-bolder text-white">
+                    <Card.Title className="fw-bolder text-white mb-3">
                       Are you a startup and want to go live asap projects?
                     </Card.Title>
 
-                    <Card.Text className="text-white">
+                    <Card.Text className="we-have-para text-white">
                       We Have been working with startup since our inception and
                       help them scale as they grow.Our Experience can help you
                       refine your business ideas and into the market asap.
                       <div className="d-flex mt-4">
-                        <div className="pe-sm-5  pe-xl-5 pr-xl-3  text-center">
+                        <div className="pe-sm-5  pe-xl-5 pr-xl-3 m-1  text-center">
                           <div className="card2">
                             <img src={Access} alt="" />
                           </div>
                           <span className="text-warning">Accessibility</span>
                         </div>
-                        <div className=" pe-sm-5  pe-xl-5 pr-xl-3  text-center">
+                        <div className=" pe-sm-5  pe-xl-5 pr-xl-3 m-1 text-center">
                           <div className="card2">
                             <img src={Adap} alt="" />
                           </div>
                           <span className="text-warning">Adaptability</span>
                         </div>
-                        <div className=" pe-sm-5  pe-xl-5 pr-xl-3  text-center">
+                        <div className=" pe-sm-5  pe-xl-5 pr-xl-3 m-1  text-center">
                           <div className="card2">
                             <img src={Scal} alt="" />
                           </div>
@@ -121,7 +133,6 @@ const Footer = () => {
                     <CustomButton
                       title="EXPLORE MORE"
                       className={"explore-btn2 "}
-                      
                     />
                   </Card.Body>
                 </Card>
@@ -129,10 +140,10 @@ const Footer = () => {
             </CardGroup>
           </div>
           <div className="row">
-            <div className="amplelogo col-sm-12 col-md-4 col-lg-6">
+            <div className="amplelogo col-lg-6">
               <img src={Amplelogo} width="80%" alt="" />
             </div>
-            <div className="isologo col-sm-6 d-flex flex-wrap justify-content-between">
+            <div className="isologo col-lg-6 d-flex flex-wrap justify-content-between">
               <div>
                 <div>
                   <img src={Iso} alt="iso" />
@@ -180,164 +191,22 @@ const Footer = () => {
       <div className="linkline">
         <div className="container">
           <div className="row">
-            <div className="d-flex flex-wrap justify-content-between">
-              <ul>
-                <h4 className="text-white fw-bolder">Development Services</h4>
-                <li>
-                  <a href="">Product Design</a>
-                </li>
-                <li>
-                  <a href="">MVP Development</a>
-                </li>
-                <li>
-                  <a href="">Continuous Prodcts Development</a>
-                </li>
-                <li>
-                  <a href="">DevOps Solutions</a>
-                </li>
-                <li>
-                  <a href="">Architecture Consulting</a>
-                </li>
-                <li>
-                  <a href="">Mobile Application Development</a>
-                </li>
-                <li>
-                  <a href="">Enterprise Web Development</a>
-                </li>
-                <li>
-                  <a href="">Voice/Alexa App Development</a>
-                </li>
-                <li>
-                  <a href="">loT App Development</a>
-                </li>
-                <li>
-                  <a href="">BlockChain App Development</a>
-                </li>
-                <li>
-                  <a href="">Al BOT Development</a>
-                </li>
-                <li>
-                  <a href="">Mobile App Maaintenance</a>
-                </li>
-              </ul>
-              <ul>
-                <h4 className="text-white  fw-bolder">Dedicated Resources</h4>
-                <li>
-                  <a href="">Hire Swift Developer</a>
-                </li>
-
-                <li>
-                  <a href="">Hire ios/iphone Developer</a>
-                </li>
-                <li>
-                  <a href="">Hire Fluter Developer</a>
-                </li>
-                <li>
-                  <a href="">Hire React Native Developer</a>
-                </li>
-                <li>
-                  <a href="">Hire Android Developer</a>
-                </li>
-                <li>
-                  <a href="">Hire Angular Developer</a>
-                </li>
-                <li>
-                  <a href="">Hire Node js Developer </a>
-                </li>
-                <li>
-                  <a href="">Hire Vue. js Developer</a>
-                </li>
-                <li>
-                  <a href="">Hire Raect js Developer</a>
-                </li>
-                <li>
-                  <a href="">Hire Laravel Developer</a>
-                </li>
-                <li>
-                  <a href="">Hire Golrang Developer</a>
-                </li>
-                <li>
-                  <a href="">Hire Full Stack Developer</a>
-                </li>
-              </ul>
-              <ul>
-                <h4 className="text-white  fw-bolder">Industry Solutions</h4>
-                <li>
-                  <a href="">Fitness Secter</a>
-                </li>
-                <li>
-                  <a href="">Wellness Area</a>
-                </li>
-                <li>
-                  <a href="">Health Service</a>
-                </li>
-                <li>
-                  <a href="">Food & Hyperiocal</a>
-                </li>
-                <li>
-                  <a href="">elearning Solutions</a>
-                </li>
-                <li>
-                  <a href="">Social & Dating</a>
-                </li>
-                <li>
-                  <a href="">Travel & Holidays</a>
-                </li>
-                <li>
-                  <a href="">Fintech Solutions</a>
-                </li>
-                <li>
-                  <a href="">Ecomm & Marketplace</a>
-                </li>
-                <li>
-                  <a href="">Jobs & Employment</a>
-                </li>
-                <li>
-                  <a href="">Real Estate Sector</a>
-                </li>
-                <li>
-                  <a href="">Software Maintenance Support</a>
-                </li>
-              </ul>
-              <ul>
-                <h4 className="text-white  fw-bolder">Enterprise</h4>
-                <li>
-                  <a href="">On Demand App Decelopment</a>
-                </li>
-                <li>
-                  <a href="">Field Sales & Service</a>
-                </li>
-                <li>
-                  <a href="">Decument Management</a>
-                </li>
-                <li>
-                  <a href="">Hippa Compliances</a>
-                </li>
-                <li>
-                  <a href="">Software Testing Service</a>
-                </li>
-                <li>
-                  <a href="">Logistic & Distribution</a>
-                </li>
-                <li>
-                  <a href="">Enterprise App Integration</a>
-                </li>
-                <li>
-                  <a href="">Cloud Infrastructure</a>
-                </li>
-                <li>
-                  <a href="">Business Intelligence</a>
-                </li>
-                <li>
-                  <a href="">Enterpise Mobility</a>
-                </li>
-                <li>
-                  <a href="">Staff Augmentation Srvices</a>
-                </li>
-                <li>
-                  <a href="">Inspection</a>
-                </li>
-              </ul>
+            <div className="d-flex flex-wrap justify-content-between mt-4 mb-4">
+              {Footerli.map((items) => (
+                <div>
+                  {items?.list?.map((item) => (
+                    <div className="text-white">
+                      <h4>{item.heading}</h4>
+                      <li
+                        className="customli"
+                        style={{ fontSize: "18px", color: "#9c9998" }}
+                      >
+                        <a href="">{item.li}</a>
+                      </li>
+                    </div>
+                  ))}
+                </div>
+              ))}
             </div>
           </div>
         </div>

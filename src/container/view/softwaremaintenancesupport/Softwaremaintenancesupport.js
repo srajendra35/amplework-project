@@ -22,15 +22,12 @@ const Softwaremaintenancesupport = () => {
   return (
     <>
       <WelcomeBlock
-        bgImage={Softarebenner} 
+        bgImage={Softarebenner}
         title="SOFTWARE MAINTENANCE AND SUPPORT SERVICES"
         desc="Partner With Us For Hassle-Free Software Maintenance and Support"
-         btn='Consult Software Maintenance Experts'
-        
+        btn="Consult Software Maintenance Experts"
       />
-      <CustomButton
-        btn="sdsdfs"
-      />
+
       <section className="growingyourbusiness">
         <GrowingyourBusiness />
       </section>
@@ -53,18 +50,17 @@ const Softwaremaintenancesupport = () => {
         <Dedicated />
       </section>
       <section className="technicalexperties">
-        <TechnicalExperties/>
+        <TechnicalExperties />
       </section>
       <section className="roleour">
-        <RoleOur/>
+        <RoleOur />
       </section>
-      <Frequently/>
-      <FullStackDeveloper/>
-      <Appreciation/>
-      <SweatCoin/>
-      <Digitalize/>
-      <Registration/>
-    
+      <Frequently />
+      <FullStackDeveloper />
+      <Appreciation />
+      <SweatCoin />
+      <Digitalize />
+      <Registration />
     </>
   );
 };

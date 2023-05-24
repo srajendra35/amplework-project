@@ -9,6 +9,7 @@ import ActivitiesCard from "../../../../componects/Activitescard";
 import { BiChip } from "react-icons/bi";
 import { FiDatabase } from "react-icons/fi";
 import { GiAbbotMeeple } from "react-icons/gi";
+
 const Activities = () => {
   return (
     <>
@@ -83,7 +84,6 @@ Troubleshooting"
 Oversight"
                   bgcolor="rgb(89 148 245)"
                 />
-
                 <ActivitiesCard
                   icon={<FiDatabase />}
                   title="User-Focused
